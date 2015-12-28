@@ -49,6 +49,7 @@
 * Contributions are always welcome
 * If you want a feature and can code, feel free to fork and add the change yourself and make a pull request
 * PLEASE use the ````dev```` branch when contributing as the ````master```` branch is supposed to be for stable builds. I will not reject your pull request if you make it on master, but it will annoy me and make my life harder.
+  * Find the ````dev```` branch at [https://github.com/JTechMe/JumpGo/tree/Dev](https://github.com/JTechMe/JumpGo/tree/Dev)
 * Code Style
     * Standard Java camel case
     * Member variables are preceded with an 'm'
