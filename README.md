@@ -64,15 +64,15 @@ Once you run that command, the IDE should automatically import netcipher and a c
 
 ####License
 ````
-Copyright 2015 JTechMe
+Copyright 2015 Josiah Horton
 
 JumpGo Browser
 
    This Source Code Form is subject to the terms of the 
-   Mozilla Public License, v. 2.0. If a copy of the MPL 
+   General Open Control License, v. 1.0. If a copy of the GOC 
    was not distributed with this file, You can obtain one at 
    
-   http://mozilla.org/MPL/2.0/
+   https://github.com/JTechMe/GOC-General-Open-Control-Licence-v1.0/
 ````
 This application is derived from the Lightning Browser source code found at [https://github.com/anthonycr/Lightning-Browser](https://github.com/anthonycr/Lightning-Browser). Changes made to this repo are intended for the JumpGo Browser but can be coppied to the Lightning Browser dev branch at [https://github.com/anthonycr/Lightning-Browser/tree/dev](https://github.com/anthonycr/Lightning-Browser/tree/dev) if requested.
 
