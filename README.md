@@ -76,4 +76,4 @@ JumpGo Browser
 ````
 This application is derived from the Lightning Browser source code found at [https://github.com/anthonycr/Lightning-Browser](https://github.com/anthonycr/Lightning-Browser). Changes made to this repo are intended for the JumpGo Browser but can be coppied to the Lightning Browser dev branch at [https://github.com/anthonycr/Lightning-Browser/tree/dev](https://github.com/anthonycr/Lightning-Browser/tree/dev) if requested.
 
-If you have any questions regarding the open-source license, please contact me at [jtech.inc.me@gmail.com](jtech.inc.me@gmail.com) or Anthony Restaino at [anthonyrestaino11@gmail.com](mailto:anthonyrestaino11@gmail.com)
+If you have any questions regarding the open-source license, please contact me at [jtech.inc.me@gmail.com](jtech.inc.me@gmail.com)
