@@ -125,7 +125,7 @@
     <string name="folder_default">Domyślne</string>
     <string name="folder_custom">Własna lokalizacja</string>
     <string name="untitled">Bez tytułu</string>
-    <string name="mpl_license">Mozilla Public License v. 2.0</string>
+    <string name="mpl_license">GOC General Open Control License v. 1.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
     <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>

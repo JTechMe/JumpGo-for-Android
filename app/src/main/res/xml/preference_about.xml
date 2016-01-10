@@ -24,7 +24,7 @@
             android:title="@string/app_name">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="http://www.mozilla.org/MPL/2.0/">
+                android:data="https://github.com/JTechMe/GOC-General-Open-Control-Licence-v1.0">
                 <extra
                     android:name="SOURCE"
                     android:value="SELF" />
