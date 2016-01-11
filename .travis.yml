@@ -12,8 +12,8 @@ android:
     - 'android-sdk-license-.+'
     - '.*intel.+'
 before_install:
-  - git submodule update --init --recursive
   - chmod +x gradlew
+  - git submodule update --init --recursive
 install:
   - ./gradlew
 script:
