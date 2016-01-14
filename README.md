@@ -29,6 +29,11 @@
 
 * Orbot Proxy support and I2P support
 
+## 2016 Development checklist
+- [ ] Update hosts.txt
+- [ ] Add JumpGo Login
+- [ ] Hidden Game Mode
+
 ####Permissions
 
 * ````INTERNET````: For accessing the web
