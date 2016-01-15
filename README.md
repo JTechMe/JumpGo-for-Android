@@ -33,6 +33,7 @@
 - [ ] Update hosts.txt
 - [ ] Add JumpGo Login
 - [ ] Hidden Game Mode
+- [ ] Add Shortcut to Launcher
 
 ####Permissions
 
