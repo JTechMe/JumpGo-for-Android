@@ -29,6 +29,12 @@
 
 * Orbot Proxy support and I2P support
 
+## 2016 Development checklist
+- [ ] Update hosts.txt
+- [ ] Add JumpGo Login
+- [ ] Hidden Game Mode
+- [ ] Add Shortcut to Launcher
+
 ####Permissions
 
 * ````INTERNET````: For accessing the web
@@ -62,10 +68,27 @@ git submodule update --init --recursive
 Once you run that command, the IDE should automatically import netcipher and a couple submodules in as separate projects. Than you need to set the netcipher library project as a libary of the browser project however your IDE makes you do that. Once those steps are done, the project should be all set up and ready to go. [Please read this tutorial for more information on git submodules](http://www.vogella.com/tutorials/Git/article.html#submodules)
 
 ####License
+JumpGo Project
 ````
-Copyright 2016 Josiah Horton
+Copyright 2015 Josiah Horton
 
-JumpGo Browser
+JumpGo Project Family
+
+   This Source Code Form is subject to the terms of the 
+   General Open Control License, v. 1.0. If a copy of the GOC 
+   was not distributed with this file, You can obtain one at 
+   
+   https://github.com/JTechMe/GOC-General-Open-Control-Licence-v1.0/
+````
+Lightning Browser
+````
+<<<<<<< HEAD
+Copyright 2016 Josiah Horton
+=======
+Copyright 2014 Anthony Restaino
+>>>>>>> 9fb069fa982643e6f2b1f21b4106f2857526baf1
+
+Lightning Browser
 
    This Source Code Form is subject to the terms of the
    GOC General Open Control License, v. 2.0. If a copy of the GOC
@@ -75,4 +98,8 @@ JumpGo Browser
 ````
 This means that you MUST provide attribution in your application to Lightning Browser for the use of this code. The way you can do this is to provide a separate screen in settings showing what open-source libraries and/or apps (this one) you used in your application. You must also open-source any files that you use from this repository and if you use any code at all from this repository, the file you put it in must be open-sourced according the the MPL 2.0 license. To put it simply, if you create a fork of this browser, your browser must be open-source, no exceptions. The only way to avoid open-sourcing a file is to completely write all the code yourself and to not use any code from Lightning. This is in order to provide a way for companies to utilize the code without making private server code public. For further explanation, please email me, or seek legal counsel :-P
 
+<<<<<<< HEAD
 If you have any questions regarding the open-source license, please contact me at [anthonyrestaino11@gmail.com](mailto:anthonyrestaino11@gmail.com)
+=======
+If you have any questions regarding the open-source license, please contact me at [jtech.inc.me@gmail.com](jtech.inc.me@gmail.com)
+>>>>>>> 9fb069fa982643e6f2b1f21b4106f2857526baf1
