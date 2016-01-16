@@ -1,16 +1,16 @@
-#Lightning Browser [![Build Status](https://travis-ci.org/anthonycr/Lightning-Browser.svg?branch=master)](https://travis-ci.org/anthonycr/Lightning-Browser)
-####Speed, Simplicity, Security
+#JumpGo Browser [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
+####Finally! Out of the beta!
 #![](ic_launcher_small.png)
 ####Download
-* [Download APK from here](https://github.com/anthonycr/Lightning-Browser/releases)
+* [Download APK from here](https://github.com/JTechMe/JumpGo/releases)
 
-* [Download from Google Play](https://play.google.com/store/apps/details?id=acr.browser.barebones)
+* [Download from Google Play](https://play.google.com/store/apps/details?id=com.jtechme.jumpgo)
 
 ####Master Branch
-* [![Build Status](https://travis-ci.org/anthonycr/Lightning-Browser.svg?branch=master)](https://travis-ci.org/anthonycr/Lightning-Browser)
+* [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
 
 ####Dev Branch
-* [![Build Status](https://travis-ci.org/anthonycr/Lightning-Browser.svg?branch=dev)](https://travis-ci.org/anthonycr/Lightning-Browser)
+* [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
 
 ####Features
 * Bookmarks
@@ -29,7 +29,7 @@
 
 * Orbot Proxy support and I2P support
 
-## 2016 Development checklist
+## 2016 Development Checklist
 - [x] Update hosts.txt
 - [ ] Add JumpGo Login
 - [ ] Hidden Game Mode
@@ -57,6 +57,7 @@
 * Contributions are always welcome
 * If you want a feature and can code, feel free to fork and add the change yourself and make a pull request
 * PLEASE use the ````dev```` branch when contributing as the ````master```` branch is supposed to be for stable builds. I will not reject your pull request if you make it on master, but it will annoy me and make my life harder.
+  * Find the ````dev```` branch at [https://github.com/JTechMe/JumpGo/tree/Dev](https://github.com/JTechMe/JumpGo/tree/Dev)
 * Code Style
     * Standard Java camel case
     * Member variables are preceded with an 'm'
@@ -84,24 +85,16 @@ JumpGo Project Family
 ````
 Lightning Browser
 ````
-<<<<<<< HEAD
-Copyright 2016 Josiah Horton
-=======
 Copyright 2014 Anthony Restaino
->>>>>>> 9fb069fa982643e6f2b1f21b4106f2857526baf1
 
 Lightning Browser
 
-   This Source Code Form is subject to the terms of the
-   GOC General Open Control License, v. 2.0. If a copy of the GOC
-   was not distributed with this file, You can obtain one at
-
-   https://github.com/JTechMe/GOC-General-Open-Control-Licence-v1.0/
+   This Source Code Form is subject to the terms of the 
+   Mozilla Public License, v. 2.0. If a copy of the MPL 
+   was not distributed with this file, You can obtain one at 
+   
+   http://mozilla.org/MPL/2.0/
 ````
-This means that you MUST provide attribution in your application to Lightning Browser for the use of this code. The way you can do this is to provide a separate screen in settings showing what open-source libraries and/or apps (this one) you used in your application. You must also open-source any files that you use from this repository and if you use any code at all from this repository, the file you put it in must be open-sourced according the the MPL 2.0 license. To put it simply, if you create a fork of this browser, your browser must be open-source, no exceptions. The only way to avoid open-sourcing a file is to completely write all the code yourself and to not use any code from Lightning. This is in order to provide a way for companies to utilize the code without making private server code public. For further explanation, please email me, or seek legal counsel :-P
+This application is derived from the Lightning Browser source code found at [https://github.com/anthonycr/Lightning-Browser](https://github.com/anthonycr/Lightning-Browser). Changes made to this repo are intended for the JumpGo Browser but can be coppied to the Lightning Browser dev branch at [https://github.com/anthonycr/Lightning-Browser/tree/dev](https://github.com/anthonycr/Lightning-Browser/tree/dev) if requested.
 
-<<<<<<< HEAD
-If you have any questions regarding the open-source license, please contact me at [anthonyrestaino11@gmail.com](mailto:anthonyrestaino11@gmail.com)
-=======
 If you have any questions regarding the open-source license, please contact me at [jtech.inc.me@gmail.com](jtech.inc.me@gmail.com)
->>>>>>> 9fb069fa982643e6f2b1f21b4106f2857526baf1
