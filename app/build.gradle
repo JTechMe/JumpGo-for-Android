@@ -7,7 +7,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 23
-        versionName "4.2.5a"
+        versionName "4.2.6a"
     }
     sourceSets {
         lightningPlus.setRoot('src/LightningPlus')

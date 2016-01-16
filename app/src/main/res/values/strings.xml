@@ -18,6 +18,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <string name="app_name">JumpGo</string>
+    <string name="app_lightning">Lightning</string>
     <string name="action_new_tab">New Tab</string>
     <string name="action_share">Share</string>
     <string name="action_history">History</string>
@@ -165,10 +166,11 @@
     <string name="folder_default">Default</string>
     <string name="folder_custom">Custom</string>
     <string name="untitled">Untitled</string>
-    <string name="mpl_license">GOC General Open Control License v. 1.0</string>
+    <string name="goc_license">GOC General Open Control License v. 1.0</string>
+    <string name="mpl_license">MPL Mozilla-Public-License-v2.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
-    <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
+    <string name="hphosts_ad_server_list">hpHosts Bad Server List</string>
     <string name="deleted_tab">Reopened old tab</string>
     <string name="rendering_mode">Rendering Mode</string>
     <string name="name_inverted">Inverted</string>
@@ -224,4 +226,6 @@
     <string name="hosts_source">Hosts File Ad Blocking Source</string>
     <string name="settings_adblock">Ad Block Settings</string>
     <string name="tabs_in_drawer">Show tabs in Navigation Drawer</string>
+    <string name="url_project">github.com/JTechMe/JumpGo</string>
+    <string name="this_project">This Project</string>
 </resources>

@@ -4,6 +4,17 @@
 
     <PreferenceCategory android:title="@string/settings_about">
         <Preference
+            android:summary="@string/url_project"
+            android:title="@string/this_project">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://github.com/JTechMe/JumpGo">
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+        <Preference
             android:summary="@string/url_twitter"
             android:title="@string/action_follow_me">
             <intent
@@ -20,11 +31,22 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/licenses">
         <Preference
-            android:summary="@string/mpl_license"
+            android:summary="@string/goc_license"
             android:title="@string/app_name">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://github.com/JTechMe/GOC-General-Open-Control-Licence-v1.0">
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+        <Preference
+            android:summary="@string/mpl_license"
+            android:title="@string/app_lightning">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://mozilla.org/MPL/2.0/">
                 <extra
                     android:name="SOURCE"
                     android:value="SELF" />
