@@ -30,10 +30,12 @@
 * Orbot Proxy support and I2P support
 
 ## 2016 Development checklist
-- [ ] Update hosts.txt
+- [x] Update hosts.txt
 - [ ] Add JumpGo Login
 - [ ] Hidden Game Mode
-- [ ] Add Shortcut to Launcher
+- [ ] Add Shortcuts to Launcher
+- [ ] Add Theme Creator
+- [ ] Option to backup Bookmarks to Drive
 
 ####Permissions
 
