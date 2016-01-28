@@ -32,7 +32,7 @@
 ## 2016 Development Checklist
 - [x] Update hosts.txt
 - [ ] Add JumpGo Login
-- [ ] Hidden Game Mode
+- [x] Hidden Game Mode
 - [ ] Add Shortcuts to Launcher
 - [ ] Add Theme Creator
 - [ ] Option to backup Bookmarks to Drive
