@@ -25,9 +25,12 @@
                     android:value="SELF" />
             </intent>
         </Preference>
-        <Preference
-            android:key="pref_version"
+        <header
+            android:fragment="com.jtechme.jumpgo.activity.LLandActivity"
             android:title="@string/version" />
+        <!--<Preference
+            android:key="pref_version"
+            android:title="@string/version" />-->
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/licenses">
         <Preference

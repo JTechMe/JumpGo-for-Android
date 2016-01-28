@@ -32,4 +32,14 @@
         <item>@string/dark_theme</item>
         <item>@string/black_theme</item>
     </string-array>
+
+    <array name="calendarIcons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher_beta</item>
+    </array>
+
+    <array name="ic_launchers">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher_beta</item>
+    </array>
 </resources>
