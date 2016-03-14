@@ -63,6 +63,10 @@
     * Member variables are preceded with an 'm'
     * Use 4 spaces instead of a tab (\t)
 
+####Main Contributors
+* [Anthony Restaino](https://github.com/anthonycr)
+* [Josiah Horton](https://github/nutellarlz)
+
 ####Setting Up the Project
 Due to the inclusion of the netcipher library for Orbot proxy support, importing the project will show you some errors. To fix this, first run the following git command in your project folder (NOTE: You need the git command installed to use this):
 ````
