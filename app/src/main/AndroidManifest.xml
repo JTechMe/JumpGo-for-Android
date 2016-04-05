@@ -132,12 +132,14 @@
             </intent-filter>
         </activity>
 
+        <!--
         <activity android:name="com.jtechme.jumpgo.activity.LLandActivity" android:label="@string/lland" android:hardwareAccelerated="true" android:screenOrientation="locked" android:launchMode="singleInstance" android:exported="true" android:theme="@android:style/Theme.Material.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        -->
 
         <!--
         This next activity is for the new shortcuts feature for 2016
