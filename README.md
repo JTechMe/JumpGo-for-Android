@@ -7,7 +7,7 @@
 * [Download from Google Play](https://play.google.com/store/apps/details?id=com.jtechme.jumpgo)
 
 ####Master Branch
-* [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
+* [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg?branch=master)](https://travis-ci.org/JTechMe/JumpGo)
 
 ####Dev Branch
 * [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
@@ -57,7 +57,7 @@
 * Contributions are always welcome
 * If you want a feature and can code, feel free to fork and add the change yourself and make a pull request
 * PLEASE use the ````dev```` branch when contributing as the ````master```` branch is supposed to be for stable builds. I will not reject your pull request if you make it on master, but it will annoy me and make my life harder.
-  * Find the ````dev```` branch at [https://github.com/JTechMe/JumpGo/tree/Dev](https://github.com/JTechMe/JumpGo/tree/Dev)
+  * Find the ````dev```` branch at [https://github.com/JTechMe/JumpGo/tree/dev](https://github.com/JTechMe/JumpGo/tree/dev)
 * Code Style
     * Standard Java camel case
     * Member variables are preceded with an 'm'
@@ -97,4 +97,4 @@ Lightning Browser
 ````
 This application is derived from the Lightning Browser source code found at [https://github.com/anthonycr/Lightning-Browser](https://github.com/anthonycr/Lightning-Browser). Changes made to this repo are intended for the JumpGo Browser but can be coppied to the Lightning Browser dev branch at [https://github.com/anthonycr/Lightning-Browser/tree/dev](https://github.com/anthonycr/Lightning-Browser/tree/dev) if requested.
 
-If you have any questions regarding the open-source license, please contact me at [jtech.inc.me@gmail.com](jtech.inc.me@gmail.com)
+If you have any questions regarding the open-source license, please contact me at [jtechme.org@gmail.com](jtechme.org@gmail.com)
