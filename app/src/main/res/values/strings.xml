@@ -228,4 +228,5 @@
     <string name="tabs_in_drawer">Show tabs in Navigation Drawer</string>
     <string name="url_project">github.com/JTechMe/JumpGo</string>
     <string name="this_project">This Project</string>
+    <string name="create_shortcut">Create shortcut</string>
 </resources>
