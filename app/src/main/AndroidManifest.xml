@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!-- Copyright 2014 A.C.R. Development -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.jtechme.jumpgo">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,7 +10,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
     <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
-    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
 
     <uses-feature
         android:name="android.hardware.location.gps"
@@ -25,7 +25,7 @@
         android:name="com.jtechme.jumpgo.app.BrowserApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher_beta"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name">
         <activity
             android:name="com.jtechme.jumpgo.activity.MainActivity"
@@ -89,7 +89,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="" />
+                <data android:scheme=""
+                    tools:ignore="GoogleAppIndexingUrlError" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
             </intent-filter>
