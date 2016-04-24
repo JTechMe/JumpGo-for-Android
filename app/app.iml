@@ -42,12 +42,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/lightningLiteDebug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lightningLiteDebug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lightningLiteDebug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/lightningLite/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/lightningLite/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningLiteDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningLiteDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningLiteDebug/assets" type="java-test-resource" />
@@ -55,6 +49,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningLiteDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningLiteDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningLiteDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/lightningLite/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/lightningLite/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/lightningLite/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningLite/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningLite/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningLite/assets" type="java-resource" />
