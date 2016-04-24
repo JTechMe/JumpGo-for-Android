@@ -30,7 +30,7 @@ android {
         lightningPlus {
             buildConfigField "boolean", "FULL_VERSION", "true"
             applicationId "com.jtechme.jumpgo"
-            versionCode 97
+            versionCode 98
         }
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "false"
