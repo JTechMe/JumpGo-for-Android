@@ -5,6 +5,11 @@
         <Preference
             android:key="export_bookmark"
             android:title="@string/export_bookmarks" />
+        <!--
+        <Preference
+            android:key="export_drive"
+            android:title="@string/export_drive" />
+        -->
         <Preference
             android:key="import_bookmark"
             android:title="@string/import_backup" />

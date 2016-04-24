@@ -170,7 +170,7 @@
     <string name="mpl_license">MPL Mozilla-Public-License-v2.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
-    <string name="hphosts_ad_server_list">hpHosts Bad Server List</string>
+    <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
     <string name="deleted_tab">Reopened old tab</string>
     <string name="rendering_mode">Rendering Mode</string>
     <string name="name_inverted">Inverted</string>
@@ -229,4 +229,5 @@
     <string name="url_project">github.com/JTechMe/JumpGo</string>
     <string name="this_project">This Project</string>
     <string name="create_shortcut">Create shortcut</string>
+    <string name="export_drive">Export Bookmarks to Google Drive</string>
 </resources>
