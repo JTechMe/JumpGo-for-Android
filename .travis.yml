@@ -15,6 +15,7 @@ android:
 before_install:
   - chmod +x gradlew
   - git submodule update --init --recursive
+  - git update-index --chmod=+x gradlew
   - chmod +x gradlew
 install:
   - ./gradlew
