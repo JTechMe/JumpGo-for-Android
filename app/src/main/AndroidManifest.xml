@@ -25,7 +25,7 @@
         android:name="com.jtechme.jumpgo.app.BrowserApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher_alpha"
+        android:icon="@mipmap/ic_launcher_beta"
         android:label="@string/app_name"
         android:resizeableActivity="true">
         <activity

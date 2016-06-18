@@ -15,13 +15,13 @@ public final class Constants {
     public static final String DESKTOP_USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36";
     public static final String MOBILE_USER_AGENT = "Mozilla/5.0 (Linux; U; Android 4.4; en-us; Nexus 4 Build/JOP24G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30";
     public static final String YAHOO_SEARCH = "https://search.yahoo.com/search?p=";
-    public static final String GOOGLE_SEARCH = "https://www.google.com/search?client=lightning&ie=UTF-8&oe=UTF-8&q=";
+    public static final String GOOGLE_SEARCH = "https://www.google.com/search?client=jumpgo&ie=UTF-8&oe=UTF-8&q=";
     public static final String BING_SEARCH = "https://www.bing.com/search?q=";
-    public static final String DUCK_SEARCH = "https://duckduckgo.com/?t=lightning&q=";
-    public static final String DUCK_LITE_SEARCH = "https://duckduckgo.com/lite/?t=lightning&q=";
+    public static final String DUCK_SEARCH = "https://duckduckgo.com/?t=jumpgo&q=";
+    public static final String DUCK_LITE_SEARCH = "https://duckduckgo.com/lite/?t=jumpgo&q=";
     public static final String STARTPAGE_MOBILE_SEARCH = "https://startpage.com/do/m/mobilesearch?language=english&query=";
     public static final String STARTPAGE_SEARCH = "https://startpage.com/do/search?language=english&query=";
-    public static final String ASK_SEARCH = "http://www.ask.com/web?qsrc=0&o=0&l=dir&qo=lightningBrowser&q=";
+    public static final String ASK_SEARCH = "http://www.ask.com/web?qsrc=0&o=0&l=dir&qo=jumpgoBrowser&q=";
     public static final String HOMEPAGE = "about:home";
     public static final String BAIDU_SEARCH = "https://www.baidu.com/s?wd=";
     public static final String YANDEX_SEARCH = "https://yandex.ru/yandsearch?lr=21411&text=";
@@ -35,7 +35,7 @@ public final class Constants {
     public static final String HTTPS = "https://";
     public static final String FILE = "file://";
     public static final String FOLDER = "folder://";
-    public static final String TAG = "Lightning";
+    public static final String TAG = "JumpGo";
 
     // These should match the order of @array/proxy_choices_array
     public static final int NO_PROXY = 0;

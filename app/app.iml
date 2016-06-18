@@ -43,12 +43,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/lightningPlusDebug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lightningPlusDebug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lightningPlusDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/lightningPlus/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/lightningPlus/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlusDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlusDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlusDebug/assets" type="java-test-resource" />
@@ -57,6 +51,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlusDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlusDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlusDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/lightningPlus/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/lightningPlus/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/lightningPlus/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningPlus/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningPlus/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningPlus/assets" type="java-resource" />
@@ -65,14 +65,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LightningPlus/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningPlus/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LightningPlus/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestLightningPlus/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestLightningPlus/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestLightningPlus/assets" type="java-test-resource" />
@@ -81,6 +73,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestLightningPlus/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestLightningPlus/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestLightningPlus/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testLightningPlus/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />

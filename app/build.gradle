@@ -7,7 +7,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 24
-        versionName "4.2.9.6"
+        versionName "4.2.9.7"
     }
     sourceSets {
         lightningPlus.setRoot('src/LightningPlus')
@@ -30,7 +30,7 @@ android {
         lightningPlus {
             buildConfigField "boolean", "FULL_VERSION", "true"
             applicationId "com.jtechme.jumpgo"
-            versionCode 101
+            versionCode 102
         }
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "false"
