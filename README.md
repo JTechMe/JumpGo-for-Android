@@ -41,6 +41,8 @@
  - [x] Add strings
 - [ ] Add Theme Creator
 - [ ] Option to backup Bookmarks to Drive
+ - [ ] Add Google login API
+ - [ ] Add functionality
 
 ####Permissions
 
