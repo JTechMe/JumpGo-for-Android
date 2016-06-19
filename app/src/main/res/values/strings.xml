@@ -36,6 +36,7 @@
     <string name="java">Enable JavaScript</string>
     <string name="download">Download Location</string>
     <string name="settings_advanced">Advanced Settings</string>
+    <string name="settings_advanced_explain">Recommended for experts</string>
     <string name="apache">Apache License 2.0</string>
     <string name="version">Application Version</string>
     <string name="cache">Clear cache on exit</string>
@@ -185,11 +186,15 @@
     <string name="import_backup">Import bookmarks from backup</string>
     <string name="bookmark_export_path">Bookmarks exported to</string>
     <string name="bookmark_settings">Bookmark Settings</string>
+    <string name="settings_bookmark_explain">Exporting and Importing</string>
     <string name="import_bookmark_error">Could not import bookmarks from file</string>
     <string name="title_chooser">Choose a file</string>
     <string name="settings_general">General Settings</string>
+    <string name="settings_general_explain">Adblocker, Search engine, Homepage...</string>
     <string name="settings_display">Display Settings</string>
+    <string name="settings_display_explain">Full screen mode, Text size, etc...</string>
     <string name="settings_privacy">Privacy Settings</string>
+    <string name="settings_privacy_explain">Cache, cookies, history, etc...</string>
     <string name="settings_about">About</string>
     <string name="settings_about_explain">Details about version, author and license.</string>
     <string name="close_tab">Close tab</string>
@@ -230,4 +235,11 @@
     <string name="this_project">This Project</string>
     <string name="create_shortcut">Create shortcut</string>
     <string name="export_drive">Export Bookmarks to Google Drive</string>
+    <!-- Adding bookmarks to homescreen -->
+    <string name="action_add_to_homescreen">Add to Homescreen</string>
+    <string name="message_added_to_homescreen">Shortcut Added to Homescreen</string>
+    <string name="action_delete_all_bookmarks">Delete all bookmarks</string>
+    <!-- Link to JumpGo landing page in settings -->
+    <string name="jgh">JumpGo Home</string>
+    <string name="jgh_description">Landing Page For JumpGo</string>
 </resources>

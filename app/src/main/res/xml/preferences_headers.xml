@@ -2,21 +2,37 @@
 <preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
     <header
         android:fragment="com.jtechme.jumpgo.fragment.GeneralSettingsFragment"
-        android:title="@string/settings_general" />
+        android:title="@string/settings_general"
+        android:summary="@string/settings_general_explain" />
     <header
         android:fragment="com.jtechme.jumpgo.fragment.BookmarkSettingsFragment"
-        android:title="@string/bookmark_settings" />
+        android:title="@string/bookmark_settings"
+        android:summary="@string/settings_bookmark_explain" />
     <header
         android:fragment="com.jtechme.jumpgo.fragment.DisplaySettingsFragment"
-        android:title="@string/settings_display" />
+        android:title="@string/settings_display"
+        android:summary="@string/settings_display_explain" />
     <header
         android:fragment="com.jtechme.jumpgo.fragment.PrivacySettingsFragment"
-        android:title="@string/settings_privacy" />
+        android:title="@string/settings_privacy"
+        android:summary="@string/settings_privacy_explain" />
     <header
         android:fragment="com.jtechme.jumpgo.fragment.AdvancedSettingsFragment"
-        android:title="@string/settings_advanced" />
+        android:title="@string/settings_advanced"
+        android:summary="@string/settings_advanced_explain" />
     <header
         android:fragment="com.jtechme.jumpgo.fragment.AboutSettingsFragment"
         android:title="@string/settings_about"
         android:summary="@string/settings_about_explain" />
+    <header
+        android:summary="@string/jgh_description"
+        android:title="@string/jgh">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://jtechme.github.io/jg/jumpgo">
+            <extra
+            android:name="SOURCE"
+            android:value="SELF"/>
+        </intent>
+    </header>
 </preference-headers>

@@ -30,10 +30,15 @@
 * Orbot Proxy support and I2P support
 
 ## 2016 Development Checklist
+- [x] Android N
+ - [x] Multi-Window support
 - [x] Update hosts.txt
 - [ ] Add JumpGo Login
 - [ ] Hidden Game Mode
-- [ ] Add Shortcuts to Launcher
+- [x] Add Shortcuts to Launcher
+ - [x] Add permission to manifest
+ - [x] Add shortcut functionality to BrowserActivity
+ - [x] Add strings
 - [ ] Add Theme Creator
 - [ ] Option to backup Bookmarks to Drive
 
