@@ -7,7 +7,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 24
-        versionName "4.2.9.8"
+        versionName "4.2.9.9"
     }
     sourceSets {
         lightningPlus.setRoot('src/LightningPlus')
@@ -30,7 +30,7 @@ android {
         lightningPlus {
             buildConfigField "boolean", "FULL_VERSION", "true"
             applicationId "com.jtechme.jumpgo"
-            versionCode 103
+            versionCode 104
         }
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "false"
@@ -56,6 +56,9 @@ dependencies {
 
     // Only Lightning Plus needs the proxy libraries
     compile 'net.i2p.android:client:0.7'
+
+    // permissions
+    compile 'com.anthonycr.grant:permissions:1.1.2'
 
     // Use the following code to update the libnetcipher submodule
     // git submodule foreach git reset --hard
