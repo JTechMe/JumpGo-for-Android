@@ -7,7 +7,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 24
-        versionName "4.2.9.9"
+        versionName "4.3.03"
     }
     sourceSets {
         lightningPlus.setRoot('src/LightningPlus')
@@ -30,7 +30,7 @@ android {
         lightningPlus {
             buildConfigField "boolean", "FULL_VERSION", "true"
             applicationId "com.jtechme.jumpgo"
-            versionCode 104
+            versionCode 108
         }
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "false"
@@ -59,6 +59,9 @@ dependencies {
 
     // permissions
     compile 'com.anthonycr.grant:permissions:1.1.2'
+
+    // New about page
+    //compile 'com.github.medyo:android-about-page:1.0.8'
 
     // Use the following code to update the libnetcipher submodule
     // git submodule foreach git reset --hard

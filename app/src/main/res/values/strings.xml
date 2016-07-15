@@ -242,4 +242,5 @@
     <!-- Link to JumpGo landing page in settings -->
     <string name="jgh">JumpGo Home</string>
     <string name="jgh_description">Landing Page For JumpGo</string>
+    <string name="action_home">Home</string>
 </resources>
