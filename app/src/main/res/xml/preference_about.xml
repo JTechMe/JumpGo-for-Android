@@ -31,11 +31,11 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/licenses">
         <Preference
-            android:summary="@string/goc_license"
-            android:title="@string/app_name">
+            android:summary="@string/mpl_license"
+            android:title="@string/the_jumpgo_project">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/JTechMe/GOC-General-Open-Control-Licence-v1.0">
+                android:data="http://jtechme.github.io/jumpgo/project">
                 <extra
                     android:name="SOURCE"
                     android:value="SELF" />

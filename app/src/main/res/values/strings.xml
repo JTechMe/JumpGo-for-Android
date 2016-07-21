@@ -243,4 +243,5 @@
     <string name="jgh">JumpGo Home</string>
     <string name="jgh_description">Landing Page For JumpGo</string>
     <string name="action_home">Home</string>
+    <string name="the_jumpgo_project">The JumpGo Project</string>
 </resources>
