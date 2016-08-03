@@ -1,4 +1,4 @@
-#JumpGo Browser [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
+#JumpGo Browser [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo) [![GitHub license](https://img.shields.io/badge/license-MPLv2-orange.svg?style=flat-square)](https://github.com/JTechMe/JumpGo/blob/master/Mozilla%20Public%20License%20v.%202.0)
 ####Finally! Out of the beta!
 #![](ic_launcher_small.png)
 ####Download
@@ -78,7 +78,7 @@ git submodule update --init --recursive
 Once you run that command, the IDE should automatically import netcipher and a couple submodules in as separate projects. Than you need to set the netcipher library project as a libary of the browser project however your IDE makes you do that. Once those steps are done, the project should be all set up and ready to go. [Please read this tutorial for more information on git submodules](http://www.vogella.com/tutorials/Git/article.html#submodules)
 
 ####License
-JumpGo Project
+JumpGo Project [![GitHub license](https://img.shields.io/badge/license-MPLv2-orange.svg?style=flat-square)](https://github.com/JTechMe/JumpGo/blob/master/Mozilla%20Public%20License%20v.%202.0)
 ````
 Copyright 2015 Josiah Horton
 
@@ -90,7 +90,7 @@ JumpGo Project Family
 
       http://mozilla.org/MPL/2.0/
 ````
-Lightning Browser
+Lightning Browser [![GitHub license](https://img.shields.io/badge/license-MPLv2-orange.svg?style=flat-square)](https://github.com/anthonycr/Lightning-Browser/blob/dev/Mozilla%20Public%20License%20v.%202.0)
 ````
 Copyright 2014 Anthony Restaino
 
