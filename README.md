@@ -2,9 +2,11 @@
 ####Finally! Out of the beta!
 #![](ic_launcher_small.png)
 ####Download
-* [Download APK from here](https://github.com/JTechMe/JumpGo/releases)
 
-* [Download from Google Play](https://play.google.com/store/apps/details?id=com.jtechme.jumpgo)
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/app/com.jtechme.jumpgo)
+<a href="https://play.google.com/store/apps/details?id=com.jtechme.jumpgo"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60"></a>
+
+* [Download APK from GitHub](https://github.com/JTechMe/JumpGo/releases)
 
 ####Master Branch
 * [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg?branch=master)](https://travis-ci.org/JTechMe/JumpGo)
