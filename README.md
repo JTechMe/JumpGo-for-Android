@@ -5,6 +5,7 @@
 
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/app/com.jtechme.jumpgo)
 <a href="https://play.google.com/store/apps/details?id=com.jtechme.jumpgo"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60"></a>
+<a href="https://jtechme.store.aptoide.com/app/market/com.jtechme.jumpgo/109/20056689/JumpGo"><img width="140px" alt="Android app on Aptoide" src="http://dev.aptoide.com/includes/themes/2014/images/aptoideseal.png"></a>
 
 * [Download APK from GitHub](https://github.com/JTechMe/JumpGo/releases)
 
