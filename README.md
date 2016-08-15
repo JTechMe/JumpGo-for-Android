@@ -6,7 +6,8 @@
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/app/com.jtechme.jumpgo)
 <a href="https://play.google.com/store/apps/details?id=com.jtechme.jumpgo"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60"></a>
 [<img src="getapkfromgithub.png" alt="Download APK from GitHub" height="60">](https://github.com/JTechMe/JumpGo/releases)
-<a href="https://jtechme.store.aptoide.com/app/market/com.jtechme.jumpgo/109/20056689/JumpGo"><img width="140px" alt="Android app on Aptoide" src="http://dev.aptoide.com/includes/themes/2014/images/aptoideseal.png"></a>
+<a href="https://jtechme.store.aptoide.com/app/market/com.jtechme.jumpgo/109/20056689/JumpGo"><img width="140px" alt="Android app on Aptoide" src="aptoidebadge.png"></a>
+[<img src="availableatamazon.png" alt="Available at Amazon" height="60">](https://www.amazon.com/JTechMe-JumpGo-Browser/dp/B01KFAPKJA/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1471302360&sr=1-1)
 
 ####Master Branch
 * [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg?branch=master)](https://travis-ci.org/JTechMe/JumpGo)
