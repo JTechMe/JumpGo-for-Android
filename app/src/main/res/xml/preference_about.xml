@@ -74,6 +74,19 @@
                     android:value="SELF" />
             </intent>
         </Preference>
+        <!--
+        <Preference
+            android:summary="@string/apache"
+            android:title="@string/multi_thread_dl">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.apache.org/licenses/LICENSE-2.0">
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+        -->
         <Preference
             android:summary="@string/license_gnu"
             android:title="@string/library_netcipher">

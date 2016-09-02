@@ -60,7 +60,8 @@ public class AnimatedProgressBar extends LinearLayout {
         int backgroundColor;
         try {   // Retrieve the style of the progress bar that the user hopefully set
             int DEFAULT_BACKGROUND_COLOR = 0x424242;
-            int DEFAULT_PROGRESS_COLOR = 0x2196f3;
+            //int DEFAULT_PROGRESS_COLOR = 0x2196f3;
+            int DEFAULT_PROGRESS_COLOR = 0xfb8c00;
 
             backgroundColor = array.getColor(R.styleable.AnimatedProgressBar_backgroundColor, DEFAULT_BACKGROUND_COLOR);
             mProgressColor = array.getColor(R.styleable.AnimatedProgressBar_progressColor, DEFAULT_PROGRESS_COLOR);
