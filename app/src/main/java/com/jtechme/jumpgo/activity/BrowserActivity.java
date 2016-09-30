@@ -1707,7 +1707,7 @@ public abstract class BrowserActivity extends ThemableBrowserActivity implements
      * param ValueCallback is the message from the WebView indicating a file chooser
      * should be opened
      */
-    @Override
+    //@Override
     public void openFileChooser(ValueCallback<Uri> uploadMsg) {
         mUploadMessage = uploadMsg;
         Intent i = new Intent(Intent.ACTION_GET_CONTENT);
