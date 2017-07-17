@@ -1,7 +1,7 @@
-#JumpGo Browser [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo) [![GitHub license](https://img.shields.io/badge/license-MPLv2-orange.svg?style=flat-square)](https://github.com/JTechMe/JumpGo/blob/master/Mozilla%20Public%20License%20v.%202.0)
-####Finally! Out of the beta!
-#![](ic_launcher_small.png)
-####Download
+# JumpGo Browser [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo) [![GitHub license](https://img.shields.io/badge/license-MPLv2-orange.svg?style=flat-square)](https://github.com/JTechMe/JumpGo/blob/master/Mozilla%20Public%20License%20v.%202.0)
+#### Finally! Out of the beta!
+# ![](ic_launcher_small.png)
+#### Download
 
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/app/com.jtechme.jumpgo)
 <a href="https://play.google.com/store/apps/details?id=com.jtechme.jumpgo"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60"></a>
@@ -9,13 +9,13 @@
 <a href="https://jtechme.store.aptoide.com/app/market/com.jtechme.jumpgo/109/20056689/JumpGo"><img height="60px" alt="Android app on Aptoide" src="aptoidebadge.png"></a>
 [<img src="availableatamazon.png" alt="Available at Amazon" height="60">](https://www.amazon.com/JTechMe-JumpGo-Browser/dp/B01KFAPKJA/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1471302360&sr=1-1)
 
-####Master Branch
+#### Master Branch
 * [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg?branch=master)](https://travis-ci.org/JTechMe/JumpGo)
 
-####Dev Branch
+#### Dev Branch
 * [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg?branch=dev)](https://travis-ci.org/JTechMe/JumpGo)
 
-####Features
+#### Features
 * Bookmarks
 
 * History
@@ -32,22 +32,18 @@
 
 * Orbot Proxy support and I2P support
 
-## 2016 Development Checklist
-- [x] Android N
- - [x] Multi-Window support
-- [x] Update hosts.txt
+## 2017 Development Checklist
+- [ ] Add support for desktop/mobile bookmark sync
 - [ ] Add JumpGo Login
-- [ ] Hidden Game Mode
-- [x] Add Shortcuts to Launcher
- - [x] Add permission to manifest
- - [x] Add shortcut functionality to BrowserActivity
- - [x] Add strings
+- [ ] Updated UI
+ - [ ] Include material design cards for settings and about
+ - [ ] Add CycleMenu to increase screen real-estate
 - [ ] Add Theme Creator
 - [ ] Option to backup Bookmarks to Drive
  - [ ] Add Google login API
  - [ ] Add functionality
 
-####Permissions
+#### Permissions
 
 * ````INTERNET````: For accessing the web
 
@@ -59,11 +55,11 @@
 
 * ````ACCESS_NETWORK_STATE````: Required for the WebView to function by some OEM versions of WebKit
 
-####The Code
+#### The Code
 * Please contribute code back if you can. The code isn't perfect.
 * Please add translations/translation fixes as you see need
 
-####Contributing
+#### Contributing
 * Contributions are always welcome
 * If you want a feature and can code, feel free to fork and add the change yourself and make a pull request
 * PLEASE use the ````dev```` branch when contributing as the ````master```` branch is supposed to be for stable builds. I will not reject your pull request if you make it on master, but it will annoy me and make my life harder.
@@ -73,14 +69,14 @@
     * Member variables are preceded with an 'm'
     * Use 4 spaces instead of a tab (\t)
 
-####Setting Up the Project
+#### Setting Up the Project
 Due to the inclusion of the netcipher library for Orbot proxy support, importing the project will show you some errors. To fix this, first run the following git command in your project folder (NOTE: You need the git command installed to use this):
 ````
 git submodule update --init --recursive
 ````
 Once you run that command, the IDE should automatically import netcipher and a couple submodules in as separate projects. Than you need to set the netcipher library project as a libary of the browser project however your IDE makes you do that. Once those steps are done, the project should be all set up and ready to go. [Please read this tutorial for more information on git submodules](http://www.vogella.com/tutorials/Git/article.html#submodules)
 
-####License
+#### License
 JumpGo Project [![GitHub license](https://img.shields.io/badge/license-MPLv2-orange.svg?style=flat-square)](https://github.com/JTechMe/JumpGo/blob/master/Mozilla%20Public%20License%20v.%202.0)
 ````
 Copyright 2015 Josiah Horton
