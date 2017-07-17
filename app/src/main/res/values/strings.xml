@@ -114,7 +114,7 @@
     <string name="action_manual">Manual</string>
     <string name="action_auto">Auto</string>
     <string name="action_follow_me">Contact Me</string>
-    <string name="url_twitter">instagram.com/jth.digiart/</string>
+    <string name="url_twitter" translatable="false">instagram.com/jth.digiart/</string>
     <string name="clear_cache">Clear Cache</string>
     <string name="message_cache_cleared">Cache Cleared</string>
     <string name="message_import">Bookmarks Were Imported</string>
@@ -168,7 +168,7 @@
     <string name="folder_custom">Custom</string>
     <string name="untitled">Untitled</string>
     <string name="goc_license">GOC General Open Control License v. 1.0</string>
-    <string name="mpl_license">MPL Mozilla-Public-License-v2.0</string>
+    <string name="mpl_license" translatable="false">MPL Mozilla-Public-License-v2.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
     <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
@@ -231,7 +231,7 @@
     <string name="hosts_source">Hosts File Ad Blocking Source</string>
     <string name="settings_adblock">Ad Block Settings</string>
     <string name="tabs_in_drawer">Show tabs in Navigation Drawer</string>
-    <string name="url_project">github.com/JTechMe/JumpGo</string>
+    <string name="url_project" translatable="false">github.com/JTechMe/JumpGo</string>
     <string name="this_project">This Project</string>
     <string name="create_shortcut">Create shortcut</string>
     <string name="export_drive">Export Bookmarks to Google Drive</string>

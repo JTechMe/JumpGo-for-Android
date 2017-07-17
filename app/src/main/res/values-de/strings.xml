@@ -142,7 +142,6 @@
     <string name="folder_default">Standard</string>
     <string name="folder_custom">Andere</string>
     <string name="untitled">Ohne Titel</string>
-    <string name="mpl_license">GOC General Open Control License v. 1.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
     <string name="hphosts_ad_server_list">hpHosts Ad Server Liste</string>
@@ -183,4 +182,48 @@
         <item >URL</item>
         <item >Titel</item>
     </string-array>
+    <string name="action_add_to_homescreen">Zum Startbildschirm hinzufügen</string>
+    <string name="action_delete_all_bookmarks">Alle Lesezeichen löschen</string>
+    <string name="action_folder">Ordner</string>
+    <string name="action_home">Home</string>
+    <string name="action_rename">Umbenennen</string>
+    <string name="black_theme">Schwarz Thema (AMOLED)</string>
+    <string name="clear_web_storage">Klar Web Storage</string>
+    <string name="clear_web_storage_exit">Klar web Speicherplatz beim Verlassen.</string>
+    <string name="create_shortcut">Verknüpfung erstellen</string>
+    <string name="dark_theme">Dunkle Theme</string>
+    <string name="dialog_history_long_press">Wie möchten Sie mit dieser Geschichte zu tun?</string>
+    <string name="dialog_folder">Wie möchten Sie mit dieser Ordner zu tun?</string>
+    <string name="export_drive">Lesezeichen exportieren in Google Drive</string>
+    <string name="folder">Der Name des Ordners</string>
+    <string name="host">Host:</string>
+    <string name="hosts_source">Hosts-Datei Blockieren Quelle</string>
+    <string name="http_proxy">HTTP-Proxy</string>
+    <string name="i2p_not_running">I2P wird nicht ausgeführt.</string>
+    <string name="i2p_tunnels_not_ready">I2P Tunnel sind noch nicht fertig.</string>
+    <string name="invert_color">Farbe umkehren</string>
+    <string name="jgh_description">Landing Page für JumpGo</string>
+    <string name="light_theme">Licht Thema</string>
+    <string name="manual_proxy">Manuelle Proxy-Konfiguration</string>
+    <string name="message_added_to_homescreen">Verknüpfung zum Startbildschirm hinzugefügt</string>
+    <string name="message_certificate_date_invalid">Datum des Zertifikats ist ungültig</string>
+    <string name="message_certificate_domain_mismatch">Domain im Zertifikat nicht die site Domain nicht überein.</string>
+    <string name="message_certificate_expired">Das Zertifikat ist abgelaufen</string>
+    <string name="message_certificate_invalid">Zertifikat ist ungültig</string>
+    <string name="message_certificate_not_yet_valid">Zertifikat ist noch nicht gültig</string>
+    <string name="message_certificate_untrusted">Das Zertifikat ist nicht vertrauenswürdig.</string>
+    <string name="message_web_storage_cleared">Web Speicher gelöscht</string>
+    <string name="multi_thread_dl">Android Multi-Thread Downloader</string>
+    <string name="problem_download">Ungültige URL gestoßen, nicht herunterladen</string>
+    <string name="problem_location_download">Herunterladen nicht an den angegebenen Speicherort</string>
+    <string name="settings_adblock">Ad Block Einstellungen</string>
+    <string name="settings_advanced_explain">Für Experten empfohlen</string>
+    <string name="settings_bookmark_explain">Exportieren und Importieren</string>
+    <string name="settings_display_explain">Vollbildmodus, Schriftgröße, usw...</string>
+    <string name="settings_general_explain">Adblock, Suchmaschine, Homepage ...</string>
+    <string name="settings_privacy_explain">Cache, Cookies, Verlauf, usw...</string>
+    <string name="theme">App Thema</string>
+    <string name="this_project">Dieses Projekt</string>
+    <string name="title_rename_folder">Ordner umbenennen</string>
+    <string name="use_i2p_prompt">Es sieht so aus, als haben Sie I2P installiert. Möchten Sie I2P zu verwenden?</string>
 </resources>
