@@ -153,7 +153,6 @@
     <string name="folder_default">Padrão</string>
     <string name="folder_custom">Personalizado</string>
     <string name="untitled">Sem título</string>
-    <string name="mpl_license">GOC General Open Control License v. 1.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Projeto Android Open Source</string>
     <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
@@ -198,4 +197,5 @@
     <string name="dark_theme">Tema escuro</string>
     <string name="tabs">Separadores</string>
     <string name="app_name">JumpGo</string>
+    <string name="mpl_license">MPL Mozilla-Public-License-v2.0</string>
 </resources>

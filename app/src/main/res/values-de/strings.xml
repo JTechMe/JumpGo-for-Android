@@ -109,7 +109,6 @@
     <string name="action_manual">Manuell</string>
     <string name="action_auto">Auto</string>
     <string name="action_follow_me">Kontakt</string>
-    <string name="url_twitter">twitter.com/ACRDevelopment</string>
     <string name="clear_cache">Cache löschen</string>
     <string name="message_cache_cleared">Cache gelöscht</string>
     <string name="message_import">Lesezeichen wurden importiert</string>
@@ -226,4 +225,6 @@
     <string name="this_project">Dieses Projekt</string>
     <string name="title_rename_folder">Ordner umbenennen</string>
     <string name="use_i2p_prompt">Es sieht so aus, als haben Sie I2P installiert. Möchten Sie I2P zu verwenden?</string>
+    <string name="mpl_license">MPL Mozilla-Public-License-v2.0</string>
+    <string name="url_twitter">instagram.com/jth.digiart/</string>
 </resources>

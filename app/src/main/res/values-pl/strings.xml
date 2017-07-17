@@ -92,7 +92,7 @@
     <string name="action_manual">Ręcznie</string>
     <string name="action_auto">Automatycznie</string>
     <string name="action_follow_me">Skontaktuj się z autorem</string>
-    <string name="url_twitter">twitter.com/ACRDevelopment</string>
+    <string name="url_twitter">instagram.com/jth.digiart/</string>
     <string name="clear_cache">Wyczyść pamięć podręczną</string>
     <string name="message_cache_cleared">Pamięć podręczna została wyczyszczona</string>
     <string name="message_import">Zakładki zostały zaimportowane</string>
@@ -125,7 +125,6 @@
     <string name="folder_default">Domyślne</string>
     <string name="folder_custom">Własna lokalizacja</string>
     <string name="untitled">Bez tytułu</string>
-    <string name="mpl_license">GOC General Open Control License v. 1.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
     <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>

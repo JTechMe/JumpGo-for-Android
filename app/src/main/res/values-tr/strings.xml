@@ -93,7 +93,7 @@
     <string name="action_manual">El ile</string>
     <string name="action_auto">Otomatik</string>
     <string name="action_follow_me">Benimle iletişim kur</string>
-    <string name="url_twitter">twitter.com/ACRDevelopment</string>
+    <string name="url_twitter">instagram.com/jth.digiart/</string>
     <string name="clear_cache">Önbelleği temizle</string>
     <string name="message_cache_cleared">Önbellek temizlendi</string>
     <string name="message_import">Yer işaretleri içe aktarıldı</string>
@@ -126,7 +126,6 @@
     <string name="folder_default">Varsayılan</string>
     <string name="folder_custom">Kişisel</string>
     <string name="untitled">Başlıksız</string>
-    <string name="mpl_license">GOC General Open Control License v. 1.0</string>
     <string name="freeware">Ücretsiz</string>
     <string name="android_open_source_project">Android Open Source Project</string>
     <string name="hphosts_ad_server_list">hpHosts Reklam Server Listesi</string>

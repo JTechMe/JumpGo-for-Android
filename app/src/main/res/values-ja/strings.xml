@@ -106,7 +106,6 @@
     <string name="action_manual">マニュアル</string>
     <string name="action_auto">自動</string>
     <string name="action_follow_me">Contact Me</string>
-    <string name="url_twitter">twitter.com/ACRDevelopment</string>
     <string name="clear_cache">キャッシュを消去する</string>
     <string name="message_cache_cleared">キャッシュを消去しました</string>
     <string name="message_import">ブックマークを読み込みました</string>
@@ -139,7 +138,6 @@
     <string name="folder_default">規定</string>
     <string name="folder_custom">カスタム</string>
     <string name="untitled">Untitled</string>
-    <string name="mpl_license">GOC General Open Control License v. 1.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
     <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
@@ -164,4 +162,5 @@
     <string name="settings_privacy">個人設定</string>
     <string name="settings_about">About</string>
     <string name="settings_about_explain">バージョン・開発者・ライセンスについての詳細</string>
+    <string name="url_twitter">instagram.com/jth.digiart/</string>
 </resources>
