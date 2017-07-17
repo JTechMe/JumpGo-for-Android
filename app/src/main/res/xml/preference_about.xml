@@ -8,9 +8,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://github.com/JTechMe/JumpGo">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <Preference
@@ -19,9 +19,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://instagram.com/jth.digiart/">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <Preference
@@ -35,9 +35,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://jtechme.github.io/jumpgo/project">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <Preference
@@ -46,9 +46,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://mozilla.org/MPL/2.0/">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <Preference
@@ -57,9 +57,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://www.apache.org/licenses/LICENSE-2.0">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <Preference
@@ -68,9 +68,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://hosts-file.net/">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <!--
@@ -92,9 +92,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://www.gnu.org/licenses/lgpl.html">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <Preference
@@ -103,9 +103,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://www.apache.org/licenses/LICENSE-2.0">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
         <Preference
@@ -114,9 +114,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://jsoup.org/license">
-                <extra
+                <!--extra
                     android:name="SOURCE"
-                    android:value="SELF" />
+                    android:value="SELF" /-->
             </intent>
         </Preference>
     </PreferenceCategory>
