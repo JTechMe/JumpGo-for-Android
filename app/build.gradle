@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 26
     buildToolsVersion '25.0.2'
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 25
-        versionName "4.3.054.1"
+        targetSdkVersion 26
+        versionName "4.3.054.2-a"
     }
     sourceSets {
         lightningPlus.setRoot('src/LightningPlus')
@@ -30,7 +30,7 @@ android {
         lightningPlus {
             buildConfigField "boolean", "FULL_VERSION", "true"
             applicationId "com.jtechme.jumpgo"
-            versionCode 115
+            versionCode 116
         }
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "false"
@@ -84,4 +84,11 @@ dependencies {
 
     //Material About Library
     compile 'com.github.daniel-stoneuk:material-about-library:1.8.2'
+
+    // ...
+    compile 'com.google.firebase:firebase-core:11.0.2'
+    compile 'com.google.firebase:firebase-messaging:11.0.2'
+
 }
+
+apply plugin: 'com.google.gms.google-services'
