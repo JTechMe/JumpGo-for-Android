@@ -75,6 +75,62 @@ git submodule update --init --recursive
 ````
 Once you run that command, the IDE should automatically import netcipher and a couple submodules in as separate projects. Than you need to set the netcipher library project as a libary of the browser project however your IDE makes you do that. Once those steps are done, the project should be all set up and ready to go. [Please read this tutorial for more information on git submodules](http://www.vogella.com/tutorials/Git/article.html#submodules)
 
+#### Building JumpGo
+Starting Thursday 9/7/2017, JumpGo for Android sources now have two product flavors, one for the main JumpGo com.jtechme.jumpgo application, and one for the JumpGo Dev com.jtechme.jumpgodev application.
+````gradle
+productFlavors {
+        jumpgomain {
+            buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"true\")"
+            applicationId "com.jtechme.jumpgo"
+            versionCode project.versionCode_main
+            versionName project.versionNameMain
+        }
+
+        jumpgoDev {
+            buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"true\")"
+            applicationId "com.jtechme.jumpgodev"
+            versionCode project.versionCode_dev
+            versionName project.versionNameDev
+        }
+}
+````
+##### The ````jumpgodev```` flavor is now used for rapid, bleeding-edge, versions of JumpGo. No real testing is preformed on dev builds before they're uploaded.
+To build this flavor change the manifest to include:
+````xml
+    android:icon="@mipmap/ic_launcher_dev"
+    android:roundIcon="@mipmap/ic_launcher_dev_round"
+````
+
+In Android Studio:
+* Select Build>Generate Signed APK
+* Select Flavors>jumpgodev
+* Click Finish
+
+##### The ````jumpgomain```` flavor is used for all other build variants such as alpha, beta, and production.
+To build this flavor change the manifest to include one of the following:
+* Alpha
+````xml
+    android:icon="@mipmap/ic_launcher_alpha"
+    android:roundIcon="@mipmap/ic_launcher_alpha_round"
+````
+
+* Beta
+````xml
+    android:icon="@mipmap/ic_launcher_alpha"
+    android:roundIcon="@mipmap/ic_launcher_alpha_round"
+````
+
+* Production/Stable
+````xml
+    android:icon="@mipmap/ic_launcher"
+    android:roundIcon="@mipmap/ic_launcher_round"
+````
+
+In Android Studio:
+* Select Build>Generate Signed APK
+* Select Flavors>jumpgomain
+* Click Finish
+
 #### License
 JumpGo Project [![GitHub license](https://img.shields.io/badge/license-MPLv2-orange.svg?style=flat-square)](https://github.com/JTechMe/JumpGo/blob/master/Mozilla%20Public%20License%20v.%202.0)
 ````
