@@ -35,13 +35,12 @@
 ## 2017 Development Checklist
 - [ ] Add support for desktop/mobile bookmark sync
 - [ ] Add JumpGo Login
-- [ ] Updated UI
+- [x] Updated UI
  - [ ] Include material design cards for settings and about
  - [ ] Add CycleMenu to increase screen real-estate
 - [ ] Add Theme Creator
 - [ ] Option to backup Bookmarks to Drive
  - [ ] Add Google login API
- - [ ] Add functionality
 
 #### Permissions
 
