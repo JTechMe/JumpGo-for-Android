@@ -61,13 +61,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/jumpgomain/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/jumpgomain/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/assets" type="java-test-resource" />
@@ -75,6 +68,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/jumpgomain/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/jumpgomain/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/assets" type="java-resource" />
