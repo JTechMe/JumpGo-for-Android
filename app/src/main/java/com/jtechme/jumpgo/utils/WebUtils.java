@@ -3,6 +3,7 @@ package com.jtechme.jumpgo.utils;
 import android.content.Context;
 import android.os.Build;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebIconDatabase;
@@ -10,7 +11,9 @@ import android.webkit.WebStorage;
 import android.webkit.WebView;
 import android.webkit.WebViewDatabase;
 
-import com.jtechme.jumpgo.database.HistoryDatabase;
+import com.anthonycr.bonsai.Schedulers;
+
+import com.jtechme.jumpgo.database.history.HistoryModel;
 
 /**
  * Copyright 8/4/2015 Anthony Restaino
@@ -33,8 +36,10 @@ public class WebUtils {
         WebStorage.getInstance().deleteAllData();
     }
 
-    public static void clearHistory(@NonNull Context context) {
-        HistoryDatabase.getInstance().deleteHistory();
+    public static void clearHistory(@NonNull Context context, @NonNull HistoryModel historyModel) {
+        historyModel.deleteHistory()
+                .subscribeOn(Schedulers.io())
+                .subscribe();
         WebViewDatabase m = WebViewDatabase.getInstance(context);
         m.clearFormData();
         m.clearHttpAuthUsernamePassword();
@@ -47,7 +52,7 @@ public class WebUtils {
         Utils.trimCache(context);
     }
 
-    public static void clearCache(WebView view) {
+    public static void clearCache(@Nullable WebView view) {
         if (view == null) return;
         view.clearCache(true);
     }

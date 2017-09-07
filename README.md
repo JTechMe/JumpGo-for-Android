@@ -95,10 +95,10 @@ Copyright 2014 Anthony Restaino
 
 Lightning Browser
 
-   This Source Code Form is subject to the terms of the 
-   Mozilla Public License, v. 2.0. If a copy of the MPL 
-   was not distributed with this file, You can obtain one at 
-   
+   This Source Code Form is subject to the terms of the
+   Mozilla Public License, v. 2.0. If a copy of the MPL
+   was not distributed with this file, You can obtain one at
+
    http://mozilla.org/MPL/2.0/
 ````
 This application is derived from the Lightning Browser source code found at [https://github.com/anthonycr/Lightning-Browser](https://github.com/anthonycr/Lightning-Browser). Changes made to this repo are intended for the JumpGo Browser but can be coppied to the Lightning Browser dev branch at [https://github.com/anthonycr/Lightning-Browser/tree/dev](https://github.com/anthonycr/Lightning-Browser/tree/dev) if requested.

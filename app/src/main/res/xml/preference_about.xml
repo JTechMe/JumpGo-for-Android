@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidElementNotAllowed -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory android:title="@string/settings_about">
@@ -14,7 +15,7 @@
             </intent>
         </Preference>
         <Preference
-            android:summary="@string/url_twitter"
+            android:summary="@string/url_insta"
             android:title="@string/action_follow_me">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -57,9 +58,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://www.apache.org/licenses/LICENSE-2.0">
-                <!--extra
+                <!--<extra
                     android:name="SOURCE"
-                    android:value="SELF" /-->
+                    android:value="SELF" />-->
             </intent>
         </Preference>
         <Preference
@@ -68,33 +69,20 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://hosts-file.net/">
-                <!--extra
+                <!--<extra
                     android:name="SOURCE"
-                    android:value="SELF" /-->
+                    android:value="SELF" />-->
             </intent>
         </Preference>
-        <!--
-        <Preference
-            android:summary="@string/apache"
-            android:title="@string/multi_thread_dl">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://www.apache.org/licenses/LICENSE-2.0">
-                <extra
-                    android:name="SOURCE"
-                    android:value="SELF" />
-            </intent>
-        </Preference>
-        -->
         <Preference
             android:summary="@string/license_gnu"
             android:title="@string/library_netcipher">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://www.gnu.org/licenses/lgpl.html">
-                <!--extra
+                <!--<extra
                     android:name="SOURCE"
-                    android:value="SELF" /-->
+                    android:value="SELF" />-->
             </intent>
         </Preference>
         <Preference
@@ -103,9 +91,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://www.apache.org/licenses/LICENSE-2.0">
-                <!--extra
+                <!--<extra
                     android:name="SOURCE"
-                    android:value="SELF" /-->
+                    android:value="SELF" />-->
             </intent>
         </Preference>
         <Preference
@@ -114,9 +102,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://jsoup.org/license">
-                <!--extra
+                <!--<extra
                     android:name="SOURCE"
-                    android:value="SELF" /-->
+                    android:value="SELF" />-->
             </intent>
         </Preference>
     </PreferenceCategory>

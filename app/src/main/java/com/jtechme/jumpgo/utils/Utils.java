@@ -11,7 +11,9 @@ import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
@@ -19,8 +21,10 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Shader;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
@@ -29,6 +33,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.webkit.URLUtil;
+import android.widget.Toast;
 
 import java.io.Closeable;
 import java.io.File;
@@ -39,21 +44,31 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import com.jtechme.jumpgo.R;
-import com.jtechme.jumpgo.activity.MainActivity;
+import com.jtechme.jumpgo.MainActivity;
 import com.jtechme.jumpgo.constant.Constants;
 import com.jtechme.jumpgo.database.HistoryItem;
-import com.jtechme.jumpgo.download.DownloadHandler;
+import com.jtechme.jumpgo.dialog.BrowserDialog;
 
 public final class Utils {
 
-    public static void downloadFile(final Activity activity, final String url,
-                                    final String userAgent, final String contentDisposition) {
-        String fileName = URLUtil.guessFileName(url, null, null);
-        DownloadHandler.onDownloadStart(activity, url, userAgent, contentDisposition, null
-        );
-        Log.i(Constants.TAG, "Downloading" + fileName);
+    private static final String TAG = "Utils";
+
+    public static boolean doesSupportHeaders() {
+        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
     }
 
+    /**
+     * Creates a new intent that can launch the email
+     * app with a subject, address, body, and cc. It
+     * is used to handle mail:to links.
+     *
+     * @param address the address to send the email to.
+     * @param subject the subject of the email.
+     * @param body    the body of the email.
+     * @param cc      extra addresses to CC.
+     * @return a valid intent.
+     */
+    @NonNull
     public static Intent newEmailIntent(String address, String subject,
                                         String body, String cc) {
         Intent intent = new Intent(Intent.ACTION_SEND);
@@ -65,48 +80,103 @@ public final class Utils {
         return intent;
     }
 
-    public static void createInformativeDialog(Context context, @StringRes int title, @StringRes int message) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+    /**
+     * Creates a dialog with only a title, message, and okay button.
+     *
+     * @param activity the activity needed to create a dialog.
+     * @param title    the title of the dialog.
+     * @param message  the message of the dialog.
+     */
+    public static void createInformativeDialog(@NonNull Activity activity, @StringRes int title, @StringRes int message) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         builder.setTitle(title);
         builder.setMessage(message)
-                .setCancelable(true)
-                .setPositiveButton(context.getResources().getString(R.string.action_ok),
-                        new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int id) {
-                            }
-                        });
+            .setCancelable(true)
+            .setPositiveButton(activity.getResources().getString(R.string.action_ok),
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int id) {
+                    }
+                });
         AlertDialog alert = builder.create();
         alert.show();
+        BrowserDialog.setDialogSize(activity, alert);
     }
 
+    /**
+     * Displays a snackbar to the user with a String resource.
+     * <p>
+     * NOTE: If there is an accessibility manager enabled on
+     * the device, such as LastPass, then the snackbar animations
+     * will not work.
+     *
+     * @param activity the activity needed to create a snackbar.
+     * @param resource the string resource to show to the user.
+     */
     public static void showSnackbar(@NonNull Activity activity, @StringRes int resource) {
         View view = activity.findViewById(android.R.id.content);
-        if (view == null) return;
+        if (view == null) {
+            Log.e(TAG, "showSnackbar", new NullPointerException("Unable to find android.R.id.content"));
+            return;
+        }
         Snackbar.make(view, resource, Snackbar.LENGTH_SHORT).show();
     }
 
-    public static void showSnackbar(@NonNull Activity activity, String message) {
+    /**
+     * Displays a snackbar to the user with a string message.
+     * <p>
+     * NOTE: If there is an accessibility manager enabled on
+     * the device, such as LastPass, then the snackbar animations
+     * will not work.
+     *
+     * @param activity the activity needed to create a snackbar.
+     * @param message  the string message to show to the user.
+     */
+    public static void showSnackbar(@NonNull Activity activity, @NonNull String message) {
         View view = activity.findViewById(android.R.id.content);
-        if (view == null) return;
+        if (view == null) {
+            Log.e(TAG, "showSnackbar", new NullPointerException("Unable to find android.R.id.content"));
+            return;
+        }
         Snackbar.make(view, message, Snackbar.LENGTH_SHORT).show();
     }
 
     /**
-     * Converts Density Pixels (DP) to Pixels (PX)
+     * Shows a toast to the user.
+     * Should only be used if an activity is
+     * not available to show a snackbar.
      *
-     * @param dp the number of density pixels to convert
-     * @return the number of pixels
+     * @param context  the context needed to show the toast.
+     * @param resource the string shown by the toast to the user.
      */
-    public static int dpToPx(int dp) {
+    public static void showToast(@NonNull Context context, @StringRes int resource) {
+        Toast.makeText(context, resource, Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * Converts Density Pixels (DP) to Pixels (PX).
+     *
+     * @param dp the number of density pixels to convert.
+     * @return the number of pixels that the conversion generates.
+     */
+    public static int dpToPx(float dp) {
         DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
         return (int) (dp * metrics.density + 0.5f);
     }
 
-    public static String getDomainName(String url) {
+    /**
+     * Extracts the domain name from a URL.
+     *
+     * @param url the URL to extract the domain from.
+     * @return the domain name, or the URL if the domain
+     * could not be extracted. The domain name may include
+     * HTTPS if the URL is an SSL supported URL.
+     */
+    @Nullable
+    public static String getDomainName(@Nullable String url) {
         if (url == null || url.isEmpty()) return "";
 
-        boolean ssl = url.startsWith(Constants.HTTPS);
+        boolean ssl = URLUtil.isHttpsUrl(url);
         int index = url.indexOf('/', 8);
         if (index != -1) {
             url = url.substring(0, index);
@@ -131,16 +201,7 @@ public final class Utils {
             return domain.startsWith("www.") ? domain.substring(4) : domain;
     }
 
-    public static String getProtocol(String url) {
-        int index = url.indexOf('/');
-        return url.substring(0, index + 2);
-    }
-
-    public static String[] getArray(String input) {
-        return input.split(Constants.SEPARATOR);
-    }
-
-    public static void trimCache(Context context) {
+    public static void trimCache(@NonNull Context context) {
         try {
             File dir = context.getCacheDir();
 
@@ -152,7 +213,7 @@ public final class Utils {
         }
     }
 
-    private static boolean deleteDir(File dir) {
+    private static boolean deleteDir(@Nullable File dir) {
         if (dir != null && dir.isDirectory()) {
             String[] children = dir.list();
             for (String aChildren : children) {
@@ -173,11 +234,12 @@ public final class Utils {
      * @param bitmap is the bitmap to pad.
      * @return the padded bitmap.
      */
-    public static Bitmap padFavicon(Bitmap bitmap) {
+    @NonNull
+    public static Bitmap padFavicon(@NonNull Bitmap bitmap) {
         int padding = Utils.dpToPx(4);
 
         Bitmap paddedBitmap = Bitmap.createBitmap(bitmap.getWidth() + padding, bitmap.getHeight()
-                + padding, Bitmap.Config.ARGB_8888);
+            + padding, Bitmap.Config.ARGB_8888);
 
         Canvas canvas = new Canvas(paddedBitmap);
         canvas.drawARGB(0x00, 0x00, 0x00, 0x00); // this represents white color
@@ -221,10 +283,10 @@ public final class Utils {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "JPEG_" + timeStamp + '_';
         File storageDir = Environment
-                .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+            .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
         return File.createTempFile(imageFileName, /* prefix */
-                ".jpg", /* suffix */
-                storageDir /* directory */
+            ".jpg", /* suffix */
+            storageDir /* directory */
         );
     }
 
@@ -234,7 +296,7 @@ public final class Utils {
      * @param context the context needed to obtain the PackageManager
      * @return true if flash is installed, false otherwise
      */
-    public static boolean isFlashInstalled(Context context) {
+    public static boolean isFlashInstalled(@NonNull Context context) {
         try {
             PackageManager pm = context.getPackageManager();
             ApplicationInfo ai = pm.getApplicationInfo("com.adobe.flashplayer", 0);
@@ -253,12 +315,30 @@ public final class Utils {
      *
      * @param closeable the object to close
      */
-    public static void close(Closeable closeable) {
+    public static void close(@Nullable Closeable closeable) {
         if (closeable == null)
             return;
         try {
             closeable.close();
         } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Utility method to close cursors. Cursor did not
+     * implement Closeable until API 16, so using this
+     * method for when we want to close a cursor.
+     *
+     * @param cursor the cursor to close
+     */
+    public static void close(@Nullable Cursor cursor) {
+        if (cursor == null) {
+            return;
+        }
+        try {
+            cursor.close();
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -270,7 +350,7 @@ public final class Utils {
      * @param canvas the canvas to draw upon
      * @param color  the color to use to draw the tab
      */
-    public static void drawTrapezoid(Canvas canvas, int color, boolean withShader) {
+    public static void drawTrapezoid(@NonNull Canvas canvas, int color, boolean withShader) {
 
         Paint paint = new Paint();
         paint.setColor(color);
@@ -280,9 +360,9 @@ public final class Utils {
         paint.setDither(true);
         if (withShader) {
             paint.setShader(new LinearGradient(0, 0.9f * canvas.getHeight(),
-                    0, canvas.getHeight(),
-                    color, mixTwoColors(Color.BLACK, color, 0.5f),
-                    Shader.TileMode.CLAMP));
+                0, canvas.getHeight(),
+                color, mixTwoColors(Color.BLACK, color, 0.5f),
+                Shader.TileMode.CLAMP));
         } else {
             paint.setShader(null);
         }
@@ -301,8 +381,22 @@ public final class Utils {
 
         canvas.drawPath(wallpath, paint);
     }
-    public static void createShortcut(@NonNull Activity activity, HistoryItem item) {
-        Log.d(Constants.TAG, "Creating shortcut: " + item.getTitle() + ' ' + item.getUrl());
+
+    /**
+     * Creates a shortcut on the homescreen using the
+     * {@link HistoryItem} information that opens the
+     * browser. The icon, URL, and title are used in
+     * the creation of the shortcut.
+     *
+     * @param activity the activity needed to create
+     *                 the intent and show a snackbar message
+     * @param item     the HistoryItem to create the shortcut from
+     */
+    public static void createShortcut(@NonNull Activity activity, @NonNull HistoryItem item) {
+        if (TextUtils.isEmpty(item.getUrl())) {
+            return;
+        }
+        Log.d(TAG, "Creating shortcut: " + item.getTitle() + ' ' + item.getUrl());
         Intent shortcutIntent = new Intent(activity, MainActivity.class);
         shortcutIntent.setData(Uri.parse(item.getUrl()));
 
@@ -316,4 +410,37 @@ public final class Utils {
         activity.sendBroadcast(addIntent);
         Utils.showSnackbar(activity, R.string.message_added_to_homescreen);
     }
+
+    public static int calculateInSampleSize(@NonNull BitmapFactory.Options options,
+                                            int reqWidth, int reqHeight) {
+        // Raw height and width of image
+        final int height = options.outHeight;
+        final int width = options.outWidth;
+        int inSampleSize = 1;
+
+        if (height > reqHeight || width > reqWidth) {
+
+            final int halfHeight = height / 2;
+            final int halfWidth = width / 2;
+
+            // Calculate the largest inSampleSize value that is a power of 2 and keeps both
+            // height and width larger than the requested height and width.
+            while ((halfHeight / inSampleSize) >= reqHeight
+                && (halfWidth / inSampleSize) >= reqWidth) {
+                inSampleSize *= 2;
+            }
+        }
+
+        return inSampleSize;
+    }
+
+    @Nullable
+    public static String guessFileExtension(@NonNull String filename) {
+        int lastIndex = filename.lastIndexOf('.') + 1;
+        if (lastIndex > 0 && filename.length() > lastIndex) {
+            return filename.substring(lastIndex, filename.length());
+        }
+        return null;
+    }
+
 }

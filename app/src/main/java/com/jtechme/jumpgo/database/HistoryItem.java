@@ -7,45 +7,34 @@ import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
+import com.jtechme.jumpgo.utils.Preconditions;
+
 public class HistoryItem implements Comparable<HistoryItem> {
 
-    // private variables
-    @NonNull
-    private String mUrl = "";
-
-    @NonNull
-    private String mTitle = "";
-
-    @NonNull
-    private String mFolder = "";
-
-    @Nullable
-    private Bitmap mBitmap = null;
+    @NonNull private String mUrl = "";
+    @NonNull private String mTitle = "";
+    @NonNull private String mFolder = "";
+    @Nullable private Bitmap mBitmap = null;
 
     private int mImageId = 0;
-    private int mOrder = 0;
+
+    private int mPosition = 0;
+
     private boolean mIsFolder = false;
 
-    // Empty constructor
     public HistoryItem() {}
 
-    public HistoryItem(HistoryItem item) {
-        this.mUrl = item.mUrl;
-        this.mTitle = item.mTitle;
-        this.mFolder = item.mFolder;
-        this.mOrder = item.mOrder;
-        this.mIsFolder = item.mIsFolder;
-    }
-
-    // constructor
     public HistoryItem(@NonNull String url, @NonNull String title) {
+        Preconditions.checkNonNull(url);
+        Preconditions.checkNonNull(title);
         this.mUrl = url;
         this.mTitle = title;
         this.mBitmap = null;
     }
 
-    // constructor
     public HistoryItem(@NonNull String url, @NonNull String title, int imageId) {
+        Preconditions.checkNonNull(url);
+        Preconditions.checkNonNull(title);
         this.mUrl = url;
         this.mTitle = title;
         this.mBitmap = null;
@@ -60,47 +49,47 @@ public class HistoryItem implements Comparable<HistoryItem> {
         this.mImageId = id;
     }
 
-    public void setBitmap(Bitmap image) {
+    public void setBitmap(@Nullable Bitmap image) {
         mBitmap = image;
     }
 
-    public void setFolder(String folder) {
+    public void setFolder(@Nullable String folder) {
         mFolder = (folder == null) ? "" : folder;
     }
 
-    public void setOrder(int order) {
-        mOrder = order;
+    public void setPosition(int order) {
+        mPosition = order;
     }
 
-    public int getOrder() {
-        return mOrder;
+    public int getPosition() {
+        return mPosition;
     }
 
+    @NonNull
     public String getFolder() {
         return mFolder;
     }
 
+    @Nullable
     public Bitmap getBitmap() {
         return mBitmap;
     }
 
-    // getting name
+    @NonNull
     public String getUrl() {
         return this.mUrl;
     }
 
-    // setting name
-    public void setUrl(String url) {
+    public void setUrl(@Nullable String url) {
         this.mUrl = (url == null) ? "" : url;
     }
 
-    // getting phone number
+    @NonNull
     public String getTitle() {
         return this.mTitle;
     }
 
-    // setting phone number
-    public void setTitle(String title) {
+    public void setTitle(@Nullable String title) {
         this.mTitle = (title == null) ? "" : title;
     }
 
@@ -112,6 +101,7 @@ public class HistoryItem implements Comparable<HistoryItem> {
         return mIsFolder;
     }
 
+    @NonNull
     @Override
     public String toString() {
         return mTitle;
@@ -119,7 +109,7 @@ public class HistoryItem implements Comparable<HistoryItem> {
 
     @Override
     public int compareTo(@NonNull HistoryItem another) {
-        int compare = this.mTitle.compareTo(another.mTitle);
+        int compare = this.mTitle.compareToIgnoreCase(another.mTitle);
         if (compare == 0) {
             return this.mUrl.compareTo(another.mUrl);
         }
@@ -127,27 +117,29 @@ public class HistoryItem implements Comparable<HistoryItem> {
     }
 
     @Override
-    public boolean equals(Object object) {
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
 
-        if (this == object) return true;
-        if (object == null) return false;
-        if (!(object instanceof HistoryItem)) return false;
-
-        HistoryItem that = (HistoryItem) object;
+        HistoryItem that = (HistoryItem) o;
 
         return mImageId == that.mImageId &&
-                this.mTitle.equals(that.mTitle) && this.mUrl.equals(that.mUrl) &&
-                this.mFolder.equals(that.mFolder);
+            mPosition == that.mPosition &&
+            mIsFolder == that.mIsFolder &&
+            mUrl.equals(that.mUrl) &&
+            mTitle.equals(that.mTitle) &&
+            mFolder.equals(that.mFolder);
+
     }
 
     @Override
     public int hashCode() {
-
         int result = mUrl.hashCode();
-        result = 31 * result + mImageId;
         result = 31 * result + mTitle.hashCode();
-        result = 32 * result + mFolder.hashCode();
+        result = 31 * result + mFolder.hashCode();
         result = 31 * result + mImageId;
+        result = 31 * result + mPosition;
+        result = 31 * result + (mIsFolder ? 1 : 0);
 
         return result;
     }

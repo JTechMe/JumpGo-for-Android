@@ -1,13 +1,12 @@
 language: android
-sudo: required
+sudo: false
+jdk:
+  - oraclejdk8
 android:
   components:
     - tools
-    - build-tools-23.0.3
-    - build-tools-23.0.2
-    - build-tools-23.0.1
-    - android-23
-    - android-22
+    - build-tools-26.0.0
+    - android-26
     - extra-android-support
     - extra-android-m2repository
   licenses:
@@ -16,9 +15,8 @@ android:
 before_install:
   - chmod +x gradlew
   - git submodule update --init --recursive
-  - git update-index --chmod=+x gradlew
 install:
   - ./gradlew
 script:
-  - ./gradlew assembleDebug --stacktrace
-
+  - ./gradlew :app:assembleDebug --stacktrace
+  - ./gradlew :app:test --stacktrace

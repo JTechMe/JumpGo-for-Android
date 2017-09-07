@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-    <string name="app_name">이동 점프</string>
+    <string name="app_name">JumpGo</string>
     <string name="action_new_tab">새 탭</string>
     <string name="action_share">공유</string>
     <string name="action_history">기록</string>
@@ -37,6 +37,7 @@
     <string name="stock_browser_available">지원되는 기본 브라우저 감지됨</string>
     <string name="fullScreenOption">브라우징 도중에는 상태 표시줄 숨기기</string>
     <string name="clear_cookies">브라우저 쿠키 지우기</string>
+    <string name="clear_history">Clear Browser History</string>
     <string name="dialog_image">이 이미지로 무엇을 할까요?</string>
     <string name="action_download">다운로드</string>
     <string name="action_open">열기</string>
@@ -51,7 +52,7 @@
     <string name="agent_custom">임의의 UA</string>
     <string name="title_search_engine">검색 엔진</string>
     <string name="action_ok">확인</string>
-    <string name="dialog_download">파일을 다운로드할까요?</string>
+    <string name="dialog_download">파일을 다운로드할까요? (%1$s)</string>
     <string name="action_cancel">취소</string>
     <string name="title_warning">경고</string>
     <string name="dialog_adobe_not_installed">Adobe Flash Player가 감지되지 않았습니다.\nFlash Player를 설치하세요.</string>
@@ -92,7 +93,6 @@
     <string name="action_manual">수동</string>
     <string name="action_auto">자동</string>
     <string name="action_follow_me">개발자에게 연락하기</string>
-    <string name="url_twitter">instagram.com/jth.digiart/</string>
     <string name="clear_cache">캐시 지우기</string>
     <string name="message_cache_cleared">캐시를 지웠습니다</string>
     <string name="message_import">즐겨찾기를 가져왔습니다</string>
@@ -101,7 +101,7 @@
     <string name="max_tabs">최대 탭 수에 도달했습니다</string>
     <string name="message_text_copied">텍스트가 클립보드로 복사되었습니다</string>
     <string name="message_link_copied">링크가 클립보드로 복사되었습니다</string>
-    <string name="custom_url">임의의 URL</string>
+    <string name="search_engine_custom">임의의 URL</string>
     <string name="message_blocked_local">로컬 파일 불러오기가 차단되었습니다</string>
     <string name="licenses">오픈 소스 라이센스</string>
     <string name="suggestion">다음을 검색</string>
@@ -114,7 +114,7 @@
     <string name="title_sign_in">로그인</string>
     <string name="hint_username">사용자 이름</string>
     <string name="hint_password">암호</string>
-    <string name="google_suggestions">검색 제안</string>
+    <string name="search_suggestions">검색 제안</string>
     <string name="powered_by_google">Google이 제공함</string>
     <string name="use_tor_prompt">Orbot이 설치되어 있습니다. Tor를 사용할까요?</string>
     <string name="install_orbot">Tor를 사용하려면 Orbot을 설치하세요.</string>
@@ -125,6 +125,7 @@
     <string name="folder_default">기본값</string>
     <string name="folder_custom">임의의 위치</string>
     <string name="untitled">제목 없음</string>
+    <string name="mpl_license">Mozilla Public License v. 2.0</string>
     <string name="freeware">Freeware</string>
     <string name="android_open_source_project">Android Open Source Project</string>
     <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
@@ -133,6 +134,7 @@
     <string name="name_inverted">반전</string>
     <string name="name_grayscale">그레이스케일</string>
     <string name="name_inverted_grayscale">반전된 그레이스케일</string>
+    <string name="name_increase_contrast">대비 증가</string>
     <string name="name_normal">보통</string>
     <string name="sync_history">Google과 기록 동기화</string>
     <string name="title_file_chooser">파일 선택기</string>
@@ -168,5 +170,4 @@
     <string name="invert_color">색상 반전</string>
     <string name="dark_theme">어두운 테마 사용</string>
     <string name="tabs">탭</string>
-    <string name="mpl_license">MPL Mozilla-Public-License-v2.0</string>
 </resources>
