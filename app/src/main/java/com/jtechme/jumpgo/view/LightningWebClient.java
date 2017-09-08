@@ -40,13 +40,14 @@ import java.util.Map;
 
 import javax.inject.Inject;
 
+import com.jtechme.jumpgo.BrowserApp;
 import com.jtechme.jumpgo.BuildConfig;
 import com.jtechme.jumpgo.R;
-import com.jtechme.jumpgo.BrowserApp;
+import com.jtechme.jumpgo.adblock.AdBlocker;
 import com.jtechme.jumpgo.constant.Constants;
 import com.jtechme.jumpgo.controller.UIController;
 import com.jtechme.jumpgo.dialog.BrowserDialog;
-import com.jtechme.jumpgo.adblock.AdBlock;
+import com.jtechme.jumpgo.preference.PreferenceManager;
 import com.jtechme.jumpgo.utils.IntentUtils;
 import com.jtechme.jumpgo.utils.Preconditions;
 import com.jtechme.jumpgo.utils.ProxyUtils;
@@ -63,7 +64,9 @@ public class LightningWebClient extends WebViewClient {
     @NonNull private final IntentUtils mIntentUtils;
 
     @Inject ProxyUtils mProxyUtils;
-    @Inject AdBlock mAdBlock;
+    @Inject PreferenceManager mPreferences;
+
+    @NonNull private AdBlocker mAdBlock;
 
     LightningWebClient(@NonNull Activity activity, @NonNull LightningView lightningView) {
         BrowserApp.getAppComponent().inject(this);
@@ -72,8 +75,20 @@ public class LightningWebClient extends WebViewClient {
         mActivity = activity;
         mUIController = (UIController) activity;
         mLightningView = lightningView;
-        mAdBlock.updatePreference();
+        mAdBlock = chooseAdBlocker();
         mIntentUtils = new IntentUtils(activity);
+    }
+
+    public void updatePreferences() {
+            mAdBlock = chooseAdBlocker();
+    }
+
+    private AdBlocker chooseAdBlocker() {
+        if (mPreferences.getAdBlockEnabled()) {
+            return BrowserApp.getAppComponent().provideAssetsAdBlocker();
+        } else {
+            return BrowserApp.getAppComponent().provideNoOpAdBlocker();
+        }
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)

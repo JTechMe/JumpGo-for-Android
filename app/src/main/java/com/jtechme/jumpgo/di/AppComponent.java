@@ -2,6 +2,8 @@ package com.jtechme.jumpgo.di;
 
 import javax.inject.Singleton;
 
+import com.jtechme.jumpgo.adblock.AssetsAdBlocker;
+import com.jtechme.jumpgo.adblock.NoOpAdBlocker;
 import com.jtechme.jumpgo.browser.activity.BrowserActivity;
 import com.jtechme.jumpgo.reading.activity.ReadingActivity;
 import com.jtechme.jumpgo.browser.TabsManager;
@@ -91,5 +93,11 @@ public interface AppComponent {
     void inject(SearchEngineProvider searchEngineProvider);
 
     void inject(GeneralSettingsFragment generalSettingsFragment);
+
+    //void inject(NetworkObservable networkObservable);
+
+    AssetsAdBlocker provideAssetsAdBlocker();
+
+    NoOpAdBlocker provideNoOpAdBlocker();
 
 }

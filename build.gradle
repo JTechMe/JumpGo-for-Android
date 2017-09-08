@@ -25,10 +25,10 @@ ext {
     targetSdkVersion = 26
     buildToolsVersion = '26.0.0'
 
-    versionNameDev = '4.4.0.2.3.4-dev'
+    versionNameDev = '4.4.0.2.3.5-dev'
     versionNameMain = '4.4.0.2.3.3-beta'
     //versionCode_lite = 98
     //versionCode_plus = 120
-    versionCode_dev = 123
+    versionCode_dev = 124
     versionCode_main = 118
 }
