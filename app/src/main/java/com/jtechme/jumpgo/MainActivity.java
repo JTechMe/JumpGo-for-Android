@@ -37,9 +37,7 @@ public class MainActivity extends BrowserActivity {
     @Override
     public boolean onCreateOptionsMenu(@NonNull Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
-        if (super.onCreateOptionsMenu(menu)) {
-            return true;
-        } else return false;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
