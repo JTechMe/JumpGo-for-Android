@@ -32,5 +32,5 @@ ext {
     //versionCode_lite = 98
     //versionCode_plus = 120
     versionCode_dev = 125
-    versionCode_main = 119
+    versionCode_main = 120
 }
