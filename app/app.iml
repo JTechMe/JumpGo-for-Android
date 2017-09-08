@@ -8,11 +8,11 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="jumpgomainDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleJumpgomainDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileJumpgomainDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="jumpgoDevDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleJumpgoDevDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileJumpgoDevDebugSources" />
         <afterSyncTasks>
-          <task>generateJumpgomainDebugSources</task>
+          <task>generateJumpgoDevDebugSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
@@ -39,59 +39,67 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/build/intermediates/classes/jumpgomain/debug" />
-    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/jumpgomain/debug" />
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/jumpgoDev/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/jumpgoDev/debug" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/jumpgomain/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/jumpgomain/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/jumpgomain/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/jumpgomain/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/jumpgomain/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/google-services/jumpgomain/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/jumpgomain/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/jumpgomain/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomainDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/jumpgomain/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/jumpgomain/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/jumpgomain/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomainDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/jumpgomain/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomain/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomain/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomain/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomain/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomain/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomain/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgomain/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgomain/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgomain/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgomain/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgomain/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgomain/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgomain/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgomain/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/jumpgoDev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/jumpgoDev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/jumpgoDev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/jumpgoDev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/jumpgoDev/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/google-services/jumpgoDev/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/jumpgoDev/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/jumpgoDev/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDevDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDevDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDevDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDevDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDevDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDevDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDevDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/jumpgoDev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/jumpgoDev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/jumpgoDev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/jumpgoDev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/jumpgoDev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/jumpgoDev/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/jumpgoDev/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDevDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDevDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDevDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDevDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDevDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDevDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDevDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/jumpgoDev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDevDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDevDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDevDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDevDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDevDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDevDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDevDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDev/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDev/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDev/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDev/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDev/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDev/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jumpgoDev/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDev/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDev/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDev/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDev/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDev/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDev/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testJumpgoDev/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDev/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDev/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDev/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDev/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDev/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDev/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestJumpgoDev/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
@@ -130,6 +138,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
@@ -141,6 +150,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/proguard-rules" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
@@ -148,7 +158,9 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/kotlin" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
@@ -157,52 +169,52 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="dagger-2.11" level="project" />
-    <orderEntry type="library" exported="" name="haha-2.0.3" level="project" />
-    <orderEntry type="library" exported="" name="firebase-core-11.2.2" level="project" />
-    <orderEntry type="library" exported="" name="netcipher-2.0.0-alpha1" level="project" />
-    <orderEntry type="library" exported="" name="firebase-iid-11.2.2" level="project" />
-    <orderEntry type="library" exported="" name="transition-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="jsoup-1.10.2" level="project" />
-    <orderEntry type="library" exported="" name="design-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="support-core-ui-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="leakcanary-analyzer-1.5.1" level="project" />
-    <orderEntry type="library" exported="" name="helper-0.8" level="project" />
-    <orderEntry type="library" exported="" name="netcipher-webkit-2.0.0-alpha1" level="project" />
-    <orderEntry type="library" exported="" name="jsr250-api-1.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-basement-11.2.2" level="project" />
-    <orderEntry type="library" exported="" name="palette-v7-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="client-0.8" level="project" />
-    <orderEntry type="library" exported="" name="firebase-messaging-11.2.2" level="project" />
-    <orderEntry type="library" exported="" name="support-fragment-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="support-core-utils-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="animated-progress-1.0" level="project" />
-    <orderEntry type="library" exported="" name="kotlin-stdlib-1.1.3" level="project" />
-    <orderEntry type="library" exported="" name="kotlin-stdlib-jre7-1.1.3" level="project" />
-    <orderEntry type="library" exported="" name="firebase-jobdispatcher-0.7.0" level="project" />
-    <orderEntry type="library" exported="" name="butterknife-annotations-8.6.0" level="project" />
-    <orderEntry type="library" exported="" name="okio-1.13.0" level="project" />
-    <orderEntry type="library" exported="" name="annotations-13.0" level="project" />
-    <orderEntry type="library" exported="" name="bonsai-1.1.0" level="project" />
-    <orderEntry type="library" exported="" name="javax.inject-1" level="project" />
-    <orderEntry type="library" exported="" name="okhttp-3.8.0" level="project" />
-    <orderEntry type="library" exported="" name="leakcanary-android-1.5.1" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="support-media-compat-25.4.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
-    <orderEntry type="library" exported="" name="firebase-analytics-impl-11.2.2" level="project" />
-    <orderEntry type="library" exported="" name="firebase-analytics-11.2.2" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
-    <orderEntry type="library" exported="" name="recyclerview-v7-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="butterknife-8.6.0" level="project" />
-    <orderEntry type="library" exported="" name="permissions-1.1.2" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="support-vector-drawable-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="support-compat-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="animated-vector-drawable-25.4.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-tasks-11.2.2" level="project" />
-    <orderEntry type="library" exported="" name="leakcanary-watcher-1.5.1" level="project" />
-    <orderEntry type="library" exported="" name="firebase-common-11.2.2" level="project" />
+    <orderEntry type="library" name="dagger-2.11" level="project" />
+    <orderEntry type="library" name="haha-2.0.3" level="project" />
+    <orderEntry type="library" name="firebase-core-11.2.2" level="project" />
+    <orderEntry type="library" name="netcipher-2.0.0-alpha1" level="project" />
+    <orderEntry type="library" name="firebase-iid-11.2.2" level="project" />
+    <orderEntry type="library" name="transition-25.4.0" level="project" />
+    <orderEntry type="library" name="jsoup-1.10.2" level="project" />
+    <orderEntry type="library" name="design-25.4.0" level="project" />
+    <orderEntry type="library" name="support-core-ui-25.4.0" level="project" />
+    <orderEntry type="library" name="leakcanary-analyzer-1.5.1" level="project" />
+    <orderEntry type="library" name="helper-0.8" level="project" />
+    <orderEntry type="library" name="netcipher-webkit-2.0.0-alpha1" level="project" />
+    <orderEntry type="library" name="jsr250-api-1.0" level="project" />
+    <orderEntry type="library" name="play-services-basement-11.2.2" level="project" />
+    <orderEntry type="library" name="palette-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="client-0.8" level="project" />
+    <orderEntry type="library" name="firebase-messaging-11.2.2" level="project" />
+    <orderEntry type="library" name="support-fragment-25.4.0" level="project" />
+    <orderEntry type="library" name="support-core-utils-25.4.0" level="project" />
+    <orderEntry type="library" name="animated-progress-1.0" level="project" />
+    <orderEntry type="library" name="kotlin-stdlib-1.1.3" level="project" />
+    <orderEntry type="library" name="kotlin-stdlib-jre7-1.1.3" level="project" />
+    <orderEntry type="library" name="firebase-jobdispatcher-0.7.0" level="project" />
+    <orderEntry type="library" name="butterknife-annotations-8.6.0" level="project" />
+    <orderEntry type="library" name="okio-1.13.0" level="project" />
+    <orderEntry type="library" name="annotations-13.0" level="project" />
+    <orderEntry type="library" name="bonsai-1.1.0" level="project" />
+    <orderEntry type="library" name="javax.inject-1" level="project" />
+    <orderEntry type="library" name="okhttp-3.8.0" level="project" />
+    <orderEntry type="library" name="leakcanary-android-1.5.1" level="project" />
+    <orderEntry type="library" name="support-v4-25.4.0" level="project" />
+    <orderEntry type="library" name="support-media-compat-25.4.0" level="project" />
+    <orderEntry type="library" name="firebase-analytics-impl-11.2.2" level="project" />
+    <orderEntry type="library" name="firebase-analytics-11.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" name="recyclerview-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="butterknife-8.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit-4.12" level="project" />
+    <orderEntry type="library" name="permissions-1.1.2" level="project" />
+    <orderEntry type="library" name="support-annotations-25.4.0" level="project" />
+    <orderEntry type="library" name="appcompat-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="support-vector-drawable-25.4.0" level="project" />
+    <orderEntry type="library" name="support-compat-25.4.0" level="project" />
+    <orderEntry type="library" name="animated-vector-drawable-25.4.0" level="project" />
+    <orderEntry type="library" name="play-services-tasks-11.2.2" level="project" />
+    <orderEntry type="library" name="firebase-common-11.2.2" level="project" />
+    <orderEntry type="library" name="leakcanary-watcher-1.5.1" level="project" />
   </component>
 </module>

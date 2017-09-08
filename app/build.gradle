@@ -39,7 +39,7 @@ android {
         }
     }
 
-    //flavorDimensions "color"
+    flavorDimensions "color"
 
     productFlavors {
         //lightningPlus {
