@@ -90,6 +90,7 @@ import java.io.IOException;
 import javax.inject.Inject;
 
 import com.jtechme.jumpgo.R;
+import com.jtechme.jumpgo.interpolator.BezierDecelerateInterpolator;
 import com.jtechme.jumpgo.reading.activity.ReadingActivity;
 import com.jtechme.jumpgo.browser.BookmarksView;
 import com.jtechme.jumpgo.browser.BrowserPresenter;
@@ -110,7 +111,6 @@ import com.jtechme.jumpgo.dialog.BrowserDialog;
 import com.jtechme.jumpgo.dialog.LightningDialogBuilder;
 import com.jtechme.jumpgo.browser.fragment.BookmarksFragment;
 import com.jtechme.jumpgo.browser.fragment.TabsFragment;
-import com.jtechme.jumpgo.interpolator.BezierDecelerateInterpolator;
 import com.jtechme.jumpgo.receiver.NetworkReceiver;
 import com.jtechme.jumpgo.search.SearchEngineProvider;
 import com.jtechme.jumpgo.search.SuggestionsAdapter;

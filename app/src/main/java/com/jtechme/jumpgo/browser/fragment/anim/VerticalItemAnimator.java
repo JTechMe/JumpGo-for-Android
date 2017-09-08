@@ -26,10 +26,10 @@ import android.support.v7.widget.SimpleItemAnimator;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 
+import com.jtechme.jumpgo.interpolator.BezierDecelerateInterpolator;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import com.jtechme.jumpgo.interpolator.BezierDecelerateInterpolator;
 
 /**
  * This implementation of {@link RecyclerView.ItemAnimator} provides basic
