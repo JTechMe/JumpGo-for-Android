@@ -25,10 +25,12 @@ ext {
     targetSdkVersion = 26
     buildToolsVersion = '26.0.1'
 
-    versionNameDev = '4.4.0.2.3.5-dev'
-    versionNameMain = '4.4.0.2.3.3-beta'
+    //Please use the new naming system stated here:
+    //Version naming system: major.minor[.revision[.build[-channel[.release]]]]
+    versionNameDev = '4.4.0.24-dev.01'
+    versionNameMain = '4.4.0.24-alpha.01'
     //versionCode_lite = 98
     //versionCode_plus = 120
-    versionCode_dev = 124
-    versionCode_main = 118
+    versionCode_dev = 125
+    versionCode_main = 119
 }
