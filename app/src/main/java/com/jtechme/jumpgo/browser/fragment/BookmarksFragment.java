@@ -35,13 +35,13 @@ import javax.inject.Inject;
 
 import com.jtechme.jumpgo.R;
 import com.jtechme.jumpgo.browser.bookmark.BookmarkUiModel;
+import com.jtechme.jumpgo.controller.UIController;
 import com.jtechme.jumpgo.reading.activity.ReadingActivity;
 import com.jtechme.jumpgo.browser.TabsManager;
 import com.jtechme.jumpgo.animation.AnimationUtils;
 import com.jtechme.jumpgo.BrowserApp;
 import com.jtechme.jumpgo.browser.BookmarksView;
 import com.jtechme.jumpgo.constant.Constants;
-import com.jtechme.jumpgo.controller.UIController;
 import com.jtechme.jumpgo.database.HistoryItem;
 import com.jtechme.jumpgo.database.bookmark.BookmarkModel;
 import com.jtechme.jumpgo.dialog.LightningDialogBuilder;
