@@ -312,7 +312,7 @@ public class BookmarksFragment extends Fragment implements View.OnClickListener,
         }
 
         if (animate) {
-            Animation transition = AnimationUtils.createRotationTransitionAnimation(mBookmarkTitleImage, resource);
+            Animation transition = AnimationUtils.INSTANCE.createRotationTransitionAnimation(mBookmarkTitleImage, resource);
             mBookmarkTitleImage.startAnimation(transition);
         } else {
             mBookmarkTitleImage.setImageResource(resource);
