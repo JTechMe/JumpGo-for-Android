@@ -1,8 +1,8 @@
 package com.jtechme.jumpgo.message
 
 /**
- * Created by Josiah Horton on 7/21/2017.
- */
+* Created by Josiah Horton (NutellaRlz) on 7/21/2017.
+*/
 
 import android.util.Log
 
