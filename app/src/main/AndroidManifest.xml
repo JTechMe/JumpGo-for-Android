@@ -48,6 +48,11 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
 
+        <!-- Samsung multi-window (pre-7.0) -->
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.enable" android:value="true"/>
+        <meta-data android:name="android.intent.category.MULTIWINDOW_LAUNCHER" android:value="true"/>
+        <meta-data android:name="com.sec.android.intent.category.MULTIWINDOW_LAUNCHER" android:value="true"/>
+
         <activity
             android:name=".MainActivity"
             android:alwaysRetainTaskState="true"
