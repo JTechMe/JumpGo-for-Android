@@ -29,11 +29,16 @@
           <option name="languageVersion" value="1.1" />
           <option name="apiVersion" value="1.1" />
           <option name="pluginOptions">
-            <array />
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
           </option>
           <option name="pluginClasspaths">
             <array />
           </option>
+          <option name="version" value="true" />
         </compilerArguments>
       </configuration>
     </facet>
