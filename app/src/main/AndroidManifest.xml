@@ -187,14 +187,20 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
+        <service
+            android:name="message.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
         <!-- There is a problem with messages displaying while app is running -->
-        <!--<service
+        <service
             android:exported="false"
             android:name="message.MyJobService">
             <intent-filter>
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
             </intent-filter>
-        </service>-->
+        </service>
     </application>
 
 </manifest>
