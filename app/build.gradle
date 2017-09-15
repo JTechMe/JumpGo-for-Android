@@ -54,9 +54,10 @@ android {
             versionCode project.versionCode_main
             versionName project.versionNameMain
             //manifestPlaceholders = [
-            //        appIcon: "@mipmap/ic_launcher"]
+            //        appIcon: "@mipmap/ic_launcher_beta"
+            //]
             //manifestPlaceholders = [
-            //        appIconRound: "@mipmap/ic_launcher_round"
+            //        appIconRound: "@mipmap/ic_launcher_beta_round"
             //]
         }
 
@@ -67,7 +68,8 @@ android {
             versionName project.versionNameDev
 
             //manifestPlaceholders = [
-            //        appIcon: "@mipmap/ic_launcher_dev"]
+            //        appIcon: "@mipmap/ic_launcher_dev"
+            //]
             //manifestPlaceholders = [
             //        appIconRound: "@mipmap/ic_launcher_dev_round"
             //]
@@ -151,6 +153,7 @@ dependencies {
     compile 'com.google.firebase:firebase-core:11.2.2'
     compile 'com.google.firebase:firebase-messaging:11.2.2'
     compile 'com.firebase:firebase-jobdispatcher:0.7.0'
+
 
 
 }
