@@ -95,10 +95,10 @@ productFlavors {
 }
 ````
 ##### The ````jumpgodev```` flavor is now used for rapid, bleeding-edge, versions of JumpGo. No real testing is preformed on dev builds before they're uploaded.
-To build this flavor change the manifest to include:
+To build this flavor make sure the manifest includes:
 ````xml
-    android:icon="@mipmap/ic_launcher_dev"
-    android:roundIcon="@mipmap/ic_launcher_dev_round"
+    android:icon="@mipmap/ic_launcher"
+    android:roundIcon="@mipmap/ic_launcher_round"
 ````
 
 In Android Studio:
@@ -107,7 +107,7 @@ In Android Studio:
 * Click Finish
 
 ##### The ````jumpgomain```` flavor is used for all other build variants such as alpha, beta, and production.
-To build this flavor change the manifest to include one of the following:
+To build this flavor make sure the manifest to includes one of the following:
 * Alpha
 ````xml
     android:icon="@mipmap/ic_launcher_alpha"
