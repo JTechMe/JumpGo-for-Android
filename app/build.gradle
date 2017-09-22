@@ -42,23 +42,12 @@ android {
     flavorDimensions "color"
 
     productFlavors {
-        //lightningPlus {
-        //    buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"true\")"
-        //    applicationId "com.jtechme.jumpgodev"
-        //    versionCode project.versionCode_plus
-        //}
 
         jumpgomain {
             buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"true\")"
             applicationId "com.jtechme.jumpgo"
             versionCode project.versionCode_main
             versionName project.versionNameMain
-            //manifestPlaceholders = [
-            //        appIcon: "@mipmap/ic_launcher_beta"
-            //]
-            //manifestPlaceholders = [
-            //        appIconRound: "@mipmap/ic_launcher_beta_round"
-            //]
         }
 
         jumpgoDev {
@@ -66,20 +55,14 @@ android {
             applicationId "com.jtechme.jumpgodev"
             versionCode project.versionCode_dev
             versionName project.versionNameDev
-
-            //manifestPlaceholders = [
-            //        appIcon: "@mipmap/ic_launcher_dev"
-            //]
-            //manifestPlaceholders = [
-            //        appIconRound: "@mipmap/ic_launcher_dev_round"
-            //]
         }
 
-        //lightningLite {
-        //    buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"false\")"
-        //    applicationId "com.jtechme.jumpgolite"
-        //    versionCode project.versionCode_lite
-        //}
+        noGoogleServices {
+            buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"true\")"
+            applicationId "com.jtechme.jumpgongs"
+            versionCode project.versionCode_main
+            versionName project.versionNameMain
+        }
     }
 
     lintOptions {
