@@ -133,9 +133,9 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 
     // ...
-    compile 'com.google.firebase:firebase-core:11.2.2'
-    compile 'com.google.firebase:firebase-messaging:11.2.2'
-    compile 'com.firebase:firebase-jobdispatcher:0.7.0'
+    //compile 'com.google.firebase:firebase-core:11.2.2'
+    //compile 'com.google.firebase:firebase-messaging:11.2.2'
+    //compile 'com.firebase:firebase-jobdispatcher:0.7.0'
 
 
 
