@@ -251,4 +251,6 @@
     <string name="settings_display_explain">Vollbildmodus, Schriftgröße, usw...</string>
     <string name="settings_general_explain">Adblock, Suchmaschine, Homepage ...</string>
     <string name="settings_privacy_explain">Cache, Cookies, Verlauf, usw...</string>
+    <string name="jgh_description">Erfahren Sie mehr über JumpGo</string>
+    <string name="jgh">JumpGo Home</string>
 </resources>

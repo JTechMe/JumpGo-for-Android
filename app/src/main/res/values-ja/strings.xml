@@ -252,4 +252,6 @@
     <string name="dialog_title_close_browser">タブの消去</string>
     <string name="dialog_delete_download">ダウンロードの削除</string>
     <string name="dialog_delete_all_downloads">ダウンロードの全削除</string>
+    <string name="jgh_description">JumpGo について学ぶ</string>
+    <string name="jgh">JumpGo ホーム</string>
 </resources>

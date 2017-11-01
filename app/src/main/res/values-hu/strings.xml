@@ -233,4 +233,6 @@
     <string name="action_add_to_homescreen">Hozzáadás a kezdőképernyőhöz</string>
     <string name="message_added_to_homescreen">Parancsikon hozzáadva a kezdőképernyőhöz</string>
     <string name="action_delete_all_bookmarks">Összes könyvjelző törlése</string>
+    <string name="jgh_description">Tudjon meg többet a JumpGo</string>
+    <string name="jgh">JumpGo Home</string>
 </resources>

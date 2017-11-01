@@ -240,7 +240,6 @@
 
     <!-- Link to JumpGo landing page in settings -->
     <string name="jgh">JumpGo Home</string>
-    <string name="jgh_description">Landing Page For JumpGo</string>
     <string name="action_home">Home</string>
     <string name="the_jumpgo_project">The JumpGo Project</string>
 
@@ -279,4 +278,5 @@
     <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
     <string name="search_engine_baidu">Baidu</string>
     <string name="search_engine_yandex">Yandex</string>
+    <string name="jgh_description">Learn about JumpGo</string>
 </resources>

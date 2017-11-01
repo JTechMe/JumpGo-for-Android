@@ -256,4 +256,6 @@
     <string name="dialog_rename_folder">Renomear pasta</string>
     <string name="dialog_remove_folder">Remover pasta</string>
     <string name="dialog_title_close_browser">Fechar navegador</string>
+    <string name="jgh_description">Saiba mais sobre JumpGo</string>
+    <string name="jgh">JumpGo Início</string>
 </resources>

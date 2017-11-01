@@ -170,4 +170,6 @@
     <string name="invert_color">색상 반전</string>
     <string name="dark_theme">어두운 테마 사용</string>
     <string name="tabs">탭</string>
+    <string name="jgh_description">JumpGo 대해 알아보기</string>
+    <string name="jgh">JumpGo 홈</string>
 </resources>

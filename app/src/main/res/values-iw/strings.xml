@@ -10,5 +10,7 @@
     <string name="home">דף הבית</string>
     <string name="fullscreen">הפעל מצב מסך מלא</string>
     <string name="java">הפעל JavaScript</string>
+    <string name="jgh_description">למד אודות JumpGo</string>
+    <string name="jgh">הבית JumpGo</string>
 
 </resources>

@@ -258,4 +258,6 @@
     <string name="dialog_rename_folder">Rinomina cartella</string>
     <string name="dialog_remove_folder">Rimuovi cartella</string>
     <string name="dialog_title_close_browser">Chiudi browser</string>
+    <string name="jgh_description">Scopri JumpGo</string>
+    <string name="jgh">JumpGo Home</string>
 </resources>

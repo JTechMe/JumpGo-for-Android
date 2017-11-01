@@ -234,4 +234,6 @@
     <string name="action_add_to_homescreen">Додај на почетни екран</string>
     <string name="message_added_to_homescreen">Пречица додата на почетни екран</string>
     <string name="action_delete_all_bookmarks">Обриши све обележиваче</string>
+    <string name="jgh_description">Saznajte više o JumpGo</string>
+    <string name="jgh">Home JumpGo</string>
 </resources>

@@ -258,4 +258,6 @@
     <string name="dialog_rename_folder">Renommer de dossier</string>
     <string name="dialog_remove_folder">Supprimer le dossier</string>
     <string name="dialog_title_close_browser">Fermer le navigateur</string>
+    <string name="jgh_description">En savoir plus sur JumpGo</string>
+    <string name="jgh">Accueil JumpGo</string>
 </resources>

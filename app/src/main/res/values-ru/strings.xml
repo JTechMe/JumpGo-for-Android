@@ -222,4 +222,6 @@
     <string name="debug_title">Настройки отладки</string>
     <string name="debug_leak_canary">LeakCanary</string>
     <string name="app_restart">Чтобы изменения вступили в силу, необходимо перезапустить приложение.</string>
+    <string name="jgh_description">Узнайте больше о JumpGo</string>
+    <string name="jgh">JumpGo Домой</string>
 </resources>

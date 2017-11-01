@@ -29,7 +29,7 @@
         android:title="@string/jgh">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://jtechme.github.io/jg/jumpgo">
+            android:data="http://jtechme.github.io/jumpgo">
             <extra
                 android:name="SOURCE"
                 android:value="SELF"/>

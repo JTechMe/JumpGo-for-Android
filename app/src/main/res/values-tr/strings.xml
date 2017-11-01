@@ -262,4 +262,6 @@
     <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
     <string name="search_engine_baidu">Baidu</string>
     <string name="search_engine_yandex">Yandex</string>
+    <string name="jgh_description">Hakkında Bilgi JumpGo</string>
+    <string name="jgh">Ev JumpGo</string>
 </resources>

@@ -41,7 +41,7 @@
     <string name="name_normal">Normalus</string>
     <string name="port">Portas:</string>
     <string name="jgh">JumpGo namo</string>
-    <string name="jgh_description">JumpGo Pradžios puslapis</string>
+    <string name="jgh_description">Sužinokite apie JumpGo</string>
     <string name="tabs_in_drawer">Rodo skirtukai navigacijos stalčių</string>
     <string name="home">Lietuva</string>
 </resources>

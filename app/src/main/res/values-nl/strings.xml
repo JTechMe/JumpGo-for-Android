@@ -232,4 +232,6 @@
     <string name="action_add_to_homescreen">Voeg aan startscherm toe</string>
     <string name="message_added_to_homescreen">Snelkoppeling aan startscherm toegevoegd</string>
     <string name="action_delete_all_bookmarks">Verwijder alle bladwijzers</string>
+    <string name="jgh_description">Meer informatie over JumpGo</string>
+    <string name="jgh">JumpGo Home</string>
 </resources>

@@ -243,4 +243,6 @@
 
     <string name="problem_download">La dirección no es válida, no se pudo descargar</string>
     <string name="problem_location_download">No se pudo descargar en la localización específica</string>
+    <string name="jgh_description">Conozca JumpGo</string>
+    <string name="jgh">JumpGo Home</string>
 </resources>

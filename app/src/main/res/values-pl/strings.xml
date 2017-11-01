@@ -208,4 +208,6 @@
     <string name="hosts_source">Źródło filtrów blokujących reklamy</string>
     <string name="settings_adblock">Ustawienia blokowania reklam</string>
     <string name="tabs_in_drawer">Pokazuj karty w bocznym menu</string>
+    <string name="jgh_description">Poznaj JumpGo</string>
+    <string name="jgh">JumpGo strona główna</string>
 </resources>

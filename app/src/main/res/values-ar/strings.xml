@@ -83,7 +83,7 @@
     <string name="folder_default">الافتراضي</string>
     <string name="folder_custom">مخصص</string>
     <string name="jgh">موقع JumpGo</string>
-    <string name="jgh_description">الصفحة المنتقل JumpGo</string>
+    <string name="jgh_description">تعرف JumpGo</string>
     <string name="tabs_in_drawer">اظهار علامات التبويب فى درج الملاحة</string>
     <string name="this_project">هذا المشروع GitHub</string>
     <string name="settings_display_explain">وضع الشاشة الكاملة, حجم النص, الخ..</string>
