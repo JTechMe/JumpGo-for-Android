@@ -241,7 +241,7 @@
     <!-- Link to JumpGo landing page in settings -->
     <string name="jgh">JumpGo Home</string>
     <string name="action_home">Home</string>
-    <string name="the_jumpgo_project">The JumpGo Project</string>
+    <string name="the_jumpgo_project" translatable="false">The JumpGo Project</string>
 
     <string name="faq">FAQ</string>
     <string name="faq_description">Frequently asked questions</string>
@@ -279,4 +279,5 @@
     <string name="search_engine_baidu">Baidu</string>
     <string name="search_engine_yandex">Yandex</string>
     <string name="jgh_description">Learn about JumpGo</string>
+    <string name="url_contact" translatable="false">nutellarlz.github.io/</string>
 </resources>

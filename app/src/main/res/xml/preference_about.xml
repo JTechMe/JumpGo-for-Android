@@ -15,11 +15,11 @@
             </intent>
         </Preference>
         <Preference
-            android:summary="@string/url_insta"
+            android:summary="@string/url_contact"
             android:title="@string/action_follow_me">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="http://instagram.com/jth.digiart/">
+                android:data="https://nutellarlz.github.io/">
                 <!--extra
                     android:name="SOURCE"
                     android:value="SELF" /-->
