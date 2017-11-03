@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="incognito"
+        android:enabled="true"
+        android:icon="@drawable/incognito"
+        android:shortcutShortLabel="@string/incognito_shortcut_short_label1"
+        android:shortcutLongLabel="@string/incognito_shortcut_long_label1"
+        android:shortcutDisabledMessage="@string/incognito_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.jtechme.jumpgodev"
+            android:targetClass="com.jtechme.jumpgo.MainActivity" />
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.jtechme.jumpgodev"
+            android:targetClass="com.jtechme.jumpgo.IncognitoActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.tabs" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="newtab"
+        android:enabled="false"
+        android:icon="@drawable/add"
+        android:shortcutShortLabel="@string/newtab_shortcut_short_label1"
+        android:shortcutLongLabel="@string/newtab_shortcut_long_label1"
+        android:shortcutDisabledMessage="@string/newtab_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.jtechme.jumpgodev"
+            android:targetClass="com.jtechme.jumpgo.newTab" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.tabs" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@drawable/settings"
+        android:shortcutShortLabel="@string/settings_shortcut_short_label1"
+        android:shortcutLongLabel="@string/settings_shortcut_long_label1"
+        android:shortcutDisabledMessage="@string/settings_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.jtechme.jumpgodev"
+            android:targetClass="com.jtechme.jumpgo.MainActivity" />
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.jtechme.jumpgodev"
+            android:targetClass="com.jtechme.jumpgo.settings.activity.SettingsActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.settings" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
