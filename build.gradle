@@ -5,7 +5,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-beta6'
+        classpath 'com.android.tools.build:gradle:3.0.0'
         classpath 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:0.6.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // ...
@@ -24,15 +24,18 @@ allprojects {
 
 ext {
     minSdkVersion = 15
+    //minSdkVersion = 22
+    //minSdkVersionDev = 22
+    //minSdkVersionMain = 15
     targetSdkVersion = 26
     buildToolsVersion = '26.0.1'
 
     //Please use the new naming system stated here:
     //Version naming system: major.minor[.revision[.build[-channel[.release]]]]
-    versionNameDev = '4.4.0.24-dev.07'
-    versionNameMain = '4.4.0.24'
+    versionNameDev = '4.4.1.0-dev.01'
+    versionNameMain = '4.4.0.25-alpha.01'
     //versionCode_lite = 98
     //versionCode_plus = 120
-    versionCode_dev = 131
+    versionCode_dev = 132
     versionCode_main = 125
 }

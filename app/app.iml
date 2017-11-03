@@ -38,7 +38,6 @@
           <option name="pluginClasspaths">
             <array />
           </option>
-          <option name="version" value="true" />
         </compilerArguments>
       </configuration>
     </facet>
@@ -112,6 +111,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
@@ -143,6 +149,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
@@ -153,10 +160,14 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged-not-compiled-resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/proguard-rules" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res_stripped" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
@@ -166,56 +177,58 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/kotlin" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="dagger-2.11" level="project" />
-    <orderEntry type="library" name="haha-2.0.3" level="project" />
-    <orderEntry type="library" name="firebase-core-11.2.2" level="project" />
-    <orderEntry type="library" name="netcipher-2.0.0-alpha1" level="project" />
-    <orderEntry type="library" name="firebase-iid-11.2.2" level="project" />
-    <orderEntry type="library" name="transition-25.4.0" level="project" />
-    <orderEntry type="library" name="jsoup-1.10.2" level="project" />
-    <orderEntry type="library" name="kotlin-stdlib-jre7-1.1.3-2" level="project" />
-    <orderEntry type="library" name="design-25.4.0" level="project" />
-    <orderEntry type="library" name="support-core-ui-25.4.0" level="project" />
-    <orderEntry type="library" name="leakcanary-analyzer-1.5.1" level="project" />
-    <orderEntry type="library" name="helper-0.8" level="project" />
-    <orderEntry type="library" name="netcipher-webkit-2.0.0-alpha1" level="project" />
-    <orderEntry type="library" name="jsr250-api-1.0" level="project" />
-    <orderEntry type="library" name="play-services-basement-11.2.2" level="project" />
-    <orderEntry type="library" name="palette-v7-25.4.0" level="project" />
-    <orderEntry type="library" name="client-0.8" level="project" />
-    <orderEntry type="library" name="firebase-messaging-11.2.2" level="project" />
-    <orderEntry type="library" name="support-fragment-25.4.0" level="project" />
-    <orderEntry type="library" name="support-core-utils-25.4.0" level="project" />
-    <orderEntry type="library" name="animated-progress-1.0" level="project" />
-    <orderEntry type="library" name="firebase-jobdispatcher-0.7.0" level="project" />
-    <orderEntry type="library" name="butterknife-annotations-8.8.0" level="project" />
-    <orderEntry type="library" name="okio-1.13.0" level="project" />
-    <orderEntry type="library" name="annotations-13.0" level="project" />
-    <orderEntry type="library" name="bonsai-1.1.0" level="project" />
-    <orderEntry type="library" name="javax.inject-1" level="project" />
-    <orderEntry type="library" name="okhttp-3.8.0" level="project" />
-    <orderEntry type="library" name="leakcanary-android-1.5.1" level="project" />
-    <orderEntry type="library" name="support-v4-25.4.0" level="project" />
-    <orderEntry type="library" name="support-media-compat-25.4.0" level="project" />
-    <orderEntry type="library" name="firebase-analytics-impl-11.2.2" level="project" />
-    <orderEntry type="library" name="firebase-analytics-11.2.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="hamcrest-core-1.3" level="project" />
-    <orderEntry type="library" name="recyclerview-v7-25.4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="junit-4.12" level="project" />
-    <orderEntry type="library" name="kotlin-stdlib-1.1.3-2" level="project" />
-    <orderEntry type="library" name="permissions-1.1.2" level="project" />
-    <orderEntry type="library" name="support-annotations-25.4.0" level="project" />
-    <orderEntry type="library" name="appcompat-v7-25.4.0" level="project" />
-    <orderEntry type="library" name="support-vector-drawable-25.4.0" level="project" />
-    <orderEntry type="library" name="support-compat-25.4.0" level="project" />
-    <orderEntry type="library" name="animated-vector-drawable-25.4.0" level="project" />
-    <orderEntry type="library" name="play-services-tasks-11.2.2" level="project" />
-    <orderEntry type="library" name="firebase-common-11.2.2" level="project" />
-    <orderEntry type="library" name="butterknife-8.8.0" level="project" />
-    <orderEntry type="library" name="leakcanary-watcher-1.5.1" level="project" />
+    <orderEntry type="library" name="com.squareup.leakcanary:leakcanary-analyzer:1.5.1@jar" level="project" />
+    <orderEntry type="library" name="com.anthonycr.grant:permissions-1.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" name="info.guardianproject.netcipher:netcipher-webkit:2.0.0-alpha1@jar" level="project" />
+    <orderEntry type="library" name="javax.inject:javax.inject:1@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-ui-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-compat-25.4.0" level="project" />
+    <orderEntry type="library" name="com.anthonycr.bonsai:bonsai-1.1.0" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-basement-11.2.2" level="project" />
+    <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-stdlib:1.1.3-2@jar" level="project" />
+    <orderEntry type="library" name="net.i2p.android:helper-0.8" level="project" />
+    <orderEntry type="library" name="org.jsoup:jsoup:1.10.2@jar" level="project" />
+    <orderEntry type="library" name="com.google.dagger:dagger:2.11@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-annotations:25.4.0@jar" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-iid-11.2.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-utils-25.4.0" level="project" />
+    <orderEntry type="library" name="com.squareup.okio:okio:1.13.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v4-25.4.0" level="project" />
+    <orderEntry type="library" name="net.i2p.android:client-0.8" level="project" />
+    <orderEntry type="library" name="com.android.support:support-fragment-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-media-compat-25.4.0" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-analytics-11.2.2" level="project" />
+    <orderEntry type="library" name="com.jakewharton:butterknife-8.8.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-core:1.3@jar" level="project" />
+    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.8.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.4.0" level="project" />
+    <orderEntry type="library" name="javax.annotation:jsr250-api:1.0@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-tasks-11.2.2" level="project" />
+    <orderEntry type="library" name="com.squareup.leakcanary:leakcanary-watcher:1.5.1@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:design-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:transition-25.4.0" level="project" />
+    <orderEntry type="library" name="com.jakewharton:butterknife-annotations:8.8.0@jar" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-core-11.2.2" level="project" />
+    <orderEntry type="library" name="com.firebase:firebase-jobdispatcher-0.7.0" level="project" />
+    <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.3-2@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:appcompat-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="com.squareup.haha:haha:2.0.3@jar" level="project" />
+    <orderEntry type="library" name="info.guardianproject.netcipher:netcipher:2.0.0-alpha1@jar" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-messaging-11.2.2" level="project" />
+    <orderEntry type="library" name="org.jetbrains:annotations:13.0@jar" level="project" />
+    <orderEntry type="library" name="com.anthonycr.progress:animated-progress-1.0" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-common-11.2.2" level="project" />
+    <orderEntry type="library" name="com.android.support:palette-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-11.2.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-vector-drawable-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:recyclerview-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="com.github.chyrta:AndroidOnboarder-0.7" level="project" />
+    <orderEntry type="library" name="com.squareup.leakcanary:leakcanary-android-1.5.1" level="project" />
   </component>
 </module>
