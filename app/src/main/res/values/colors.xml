@@ -44,4 +44,11 @@
 
     <color name="colorAccent">#FFFFFFFF</color>
 
+    <color name="onboarder_bg_1">#455A64</color>
+    <color name="onboarder_bg_2">#37474F</color>
+    <color name="onboarder_bg_3">#263238</color>
+
+    <color name="primary_text">#FAFAFA</color>
+    <color name="secondary_text">#E0E0E0</color>
+
 </resources>
