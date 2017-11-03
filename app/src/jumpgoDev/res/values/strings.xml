@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- About Dev -->
+    <string name="jgdev">JumpGo Dev</string>
+    <string name="dev_build_title">JumpGo Dev build date</string>
+    <string name="dev_build_date">11/2/2017</string>
+    <string name="title_activity_about">About JumpGo Dev</string>
+    <string name="incognito_shortcut_short_label1">Incognito Tab</string>
+    <string name="incognito_shortcut_long_label1">New Incognito Tab</string>
+    <string name="incognito_disabled_message1">Incognito Tab Disabled</string>
+    <string name="newtab_shortcut_short_label1">New Tab</string>
+    <string name="newtab_shortcut_long_label1">New Tab</string>
+    <string name="newtab_disabled_message1">New Tab Disabled</string>
+    <string name="settings_shortcut_short_label1">Settings</string>
+    <string name="settings_shortcut_long_label1">Settings</string>
+    <string name="settings_disabled_message1">Settings Disabled</string>
+
+</resources>
