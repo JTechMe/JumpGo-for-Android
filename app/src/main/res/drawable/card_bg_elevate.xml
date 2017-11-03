@@ -8,6 +8,7 @@
             <corners android:radius="20dp" />
 
             <solid android:color="@color/secondary_color" />
+            <!--<solid android:color="@color/transparent" />-->
         </shape>
     </item>
     <item android:bottom="1dp">
@@ -17,6 +18,7 @@
             <corners android:radius="2dp" />
 
             <solid android:color="@android:color/white" />
+            <!--<solid android:color="@color/transparent" />-->
         </shape>
     </item>
 
